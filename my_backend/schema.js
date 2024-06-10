@@ -1,4 +1,5 @@
 const mongoose = require("mongoose");
+const bcrypt = require('bcrypt');
 
 // Solace caregiver registeration for doctors
 const DoctorSchema = new mongoose.Schema({
@@ -176,7 +177,7 @@ const LaboratorySchema = new mongoose.Schema({
   cac_certificate_photo: { type: Buffer, required: true },
   owner_first_name: { type: String, required: true },
   owner_last_name: { type: String, required: true },
-  owner_email: { type: String, required: true },
+  email: { type: String, required: true },
   owner_phone: { type: String, required: true },
   operation_license_number: { type: String, required: true },
   owner_nin: { type: String, required: true },
@@ -204,10 +205,10 @@ const HospitalClinicSchema = new mongoose.Schema({
   hospital_or_clinic_name: { type: String, required: true },
   cac_registration_number: { type: String, required: true },
   cac_certificate_photo: { type: Buffer, required: true },
-  owner_first_name: { type: String, required: true },
-  owner_last_name: { type: String, required: true },
-  owner_email: { type: String, required: true },
-  owner_phone: { type: String, required: true },
+  firstname: { type: String, required: true },
+  lastname: { type: String, required: true },
+  email: { type: String, required: true },
+  phone: { type: String, required: true },
   operation_license_number: { type: String, required: true },
   owner_nin: { type: String, required: true },
   hospital_license_photo: { type: Buffer, required: true },
@@ -220,7 +221,10 @@ const HospitalClinicSchema = new mongoose.Schema({
   pharmacy_addresses: [PharmacySchema],
 });
 
-const HospitalClinicModel = mongoose.model("HospitalClinic", HospitalClinicSchema);
+const HospitalClinicModel = mongoose.model(
+  "HospitalClinic",
+  HospitalClinicSchema
+);
 
 module.exports = HospitalClinicModel;
 
@@ -235,10 +239,10 @@ const PharmaciesSchema = new mongoose.Schema({
   pharmacy_name: { type: String, required: true },
   cac_registration_number: { type: String, required: true },
   cac_certificate_photo: { type: Buffer, required: true },
-  owner_first_name: { type: String, required: true },
-  owner_last_name: { type: String, required: true },
-  owner_email: { type: String, required: true },
-  owner_phone: { type: String, required: true },
+  firstname: { type: String, required: true },
+  lastname: { type: String, required: true },
+  email: { type: String, required: true },
+  phone: { type: String, required: true },
   pcn_number: { type: String, required: true },
   owner_nin: { type: String, required: true },
   pcn_license_photo: { type: Buffer, required: true },
@@ -254,3 +258,120 @@ const PharmaciesSchema = new mongoose.Schema({
 const PharmaciesModel = mongoose.model("Pharmacy", PharmaciesSchema);
 
 module.exports = PharmaciesModel;
+
+// Define the User Schema
+const UserSchema = new mongoose.Schema({
+  firstName: { type: String, required: true },
+  lastName: { type: String, required: true },
+  email: { type: String, required: true, unique: true },
+  phoneNumber: { type: String, required: true },
+  referralCode: { type: String },
+  password: { type: String, required: true },
+  beneficiaries: [
+    {
+      title: String,
+      firstName: String,
+      lastName: String,
+      gender: String,
+      phoneNumber: String,
+      dateOfBirth: Date,
+      stateOfResidence: String,
+      lgaOfResidence: String,
+      residentialAddress: String,
+      healthCondition: String,
+      relationship: String,
+      picture: Buffer,
+    },
+  ],
+  subscriptionPlan: { type: String, required: true },
+  serviceWorth: { type: Number, required: true },
+  serviceDuration: { type: String, required: true },
+  renewalOption: { type: String, required: true },
+  paymentMethod: { type: String, required: true },
+  totalAmount: { type: Number, required: true },
+  paymentStatus: { type: String, default: 'pending' }, 
+});
+
+// Pre-save middleware to hash the password before saving
+UserSchema.pre("save", async function (next) {
+  if (this.isModified("password") || this.isNew) {
+    try {
+      const salt = await bcrypt.genSalt(10);
+      this.password = await bcrypt.hash(this.password, salt);
+      next();
+    } catch (err) {
+      next(err);
+    }
+  } else {
+    next();
+  }
+});
+
+const UserModel = mongoose.model("User", UserSchema);
+module.exports = UserModel;
+
+
+// Define the User Schema
+const RegisterSchema = new mongoose.Schema({
+  firstName: { type: String, required: true },
+  lastName: { type: String, required: true },
+  email: { type: String, required: true, unique: true },
+  phoneNumber: { type: String, required: true },
+  referralCode: { type: String },
+  password: { type: String, required: true },
+  beneficiaries: [
+    {
+      title: String,
+      firstName: String,
+      lastName: String,
+      gender: String,
+      phoneNumber: String,
+      dateOfBirth: Date,
+      stateOfResidence: String,
+      lgaOfResidence: String,
+      residentialAddress: String,
+      healthCondition: String,
+      relationship: String,
+      picture: Buffer,
+    },
+  ],
+  subscriptionPlan: { type: String, required: true },
+  serviceWorth: { type: Number, required: true },
+  serviceDuration: { type: String, required: true },
+  renewalOption: { type: String, required: true },
+  paymentMethod: { type: String, required: true },
+  totalAmount: { type: Number, required: true },
+  paymentStatus: { type: String, default: "pending" },
+  shippingAddress: {
+    firstName: { type: String, required: true },
+    lastName: { type: String, required: true },
+    address: { type: String, required: true },
+    state: { type: String, required: true },
+    lga: { type: String, required: true },
+    email: { type: String, required: true },
+    phoneNumber: { type: String, required: true },
+  },
+});
+
+// Pre-save middleware to hash the password before saving
+RegisterSchema.pre("save", async function (next) {
+  if (this.isModified("password") || this.isNew) {
+    try {
+      const salt = await bcrypt.genSalt(10);
+      this.password = await bcrypt.hash(this.password, salt);
+      next();
+    } catch (err) {
+      next(err);
+    }
+  } else {
+    next();
+  }
+});
+
+// Method to generate random password
+RegisterSchema.methods.generateRandomPassword = function () {
+  return crypto.randomBytes(8).toString("hex");
+};
+
+const RegisterModel = mongoose.model("Register", RegisterSchema);
+module.exports = RegisterModel;
