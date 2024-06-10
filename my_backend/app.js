@@ -37,11 +37,6 @@ const connectAndMigrate = async () => {
   try {
     await mongoose.connect(dbUri);
     console.log("Your MongoDB is connected successfully");
-
-    // Run Migrations on startup
-    const { up } = migrateMongo;
-    const migrated = await up();
-    console.log("Migrations completed: ", migrated);
   } catch (err) {
     console.log("MongoDB was not connected, please check your URI: " + err);
   }
