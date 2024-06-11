@@ -18,7 +18,3 @@ jobs:
 
     - name: Run tests
       run: npm test
-
-    # - name: Deploy to server
-    #   # Add your deployment steps here
-    #   # For example, you might use SSH, FTP, or deploy to a cloud provider
