@@ -22,8 +22,8 @@ const {
   LaboratoryModel,
   HospitalClinicModel,
   PharmaciesModel,
-  UserModel,
-  RegisterModel,
+  FarewellModel,
+  HealthClubModel,
 } = require('../schema');
 
 const app = express();
@@ -50,7 +50,7 @@ app.post('/waitingform', handleFormSubmission(LaceAiModel));
 app.post('/laboratoryform', handleFormSubmission(LaboratoryModel));
 app.post('/hospitalform', handleFormSubmission(HospitalClinicModel));
 app.post('/pharmacyform', handleFormSubmission(PharmaciesModel));
-app.post('/userform', handleFormSubmission(UserModel));
+app.post('/userform', handleFormSubmission(FarewellModel,));
 app.post('/registerform', async (req, res) => {
   res.status(201).send('User registration was successful');
 });
@@ -72,8 +72,8 @@ createDataRetrievalEndpoint('/data/laceai', LaceAiModel);
 createDataRetrievalEndpoint('/data/laboratory', LaboratoryModel);
 createDataRetrievalEndpoint('/data/hospital', HospitalClinicModel);
 createDataRetrievalEndpoint('/data/pharmacy', PharmaciesModel);
-createDataRetrievalEndpoint('/data/user', UserModel);
-createDataRetrievalEndpoint('/data/register', RegisterModel);
+createDataRetrievalEndpoint('/data/user', FarewellModel,);
+createDataRetrievalEndpoint('/data/register', HealthClubModel);
 
 // Mock admin and form endpoints
 app.get('/admin', (req, res) => {
@@ -116,5 +116,4 @@ describe('Server Tests', () => {
     expect(response.text).toBe('User registration was successful');
   });
 
-  // Add more tests for other endpoints if needed
 });

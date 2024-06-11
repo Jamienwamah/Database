@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 const bcrypt = require('bcrypt');
+const { v4: uuidv4 } = require('uuid');
 
 // Solace caregiver registeration for doctors
 const DoctorSchema = new mongoose.Schema({
@@ -260,15 +261,20 @@ const PharmaciesModel = mongoose.model("Pharmacy", PharmaciesSchema);
 module.exports = PharmaciesModel;
 
 // Define the User Schema
-const UserSchema = new mongoose.Schema({
+const FarewellSchema = new mongoose.Schema({
   firstName: { type: String, required: true },
   lastName: { type: String, required: true },
   email: { type: String, required: true, unique: true },
   phoneNumber: { type: String, required: true },
   referralCode: { type: String },
   password: { type: String, required: true },
-  beneficiaries: [
+  farewellbeneficiaries: [
     {
+      id: {
+        type: String,
+        default: uuidv4,
+        unique: true,
+      },
       title: String,
       firstName: String,
       lastName: String,
@@ -293,7 +299,7 @@ const UserSchema = new mongoose.Schema({
 });
 
 // Pre-save middleware to hash the password before saving
-UserSchema.pre("save", async function (next) {
+FarewellSchema.pre("save", async function (next) {
   if (this.isModified("password") || this.isNew) {
     try {
       const salt = await bcrypt.genSalt(10);
@@ -307,41 +313,19 @@ UserSchema.pre("save", async function (next) {
   }
 });
 
-const UserModel = mongoose.model("User", UserSchema);
-module.exports = UserModel;
+const FarewellModel = mongoose.model("Farewell", FarewellSchema);
+module.exports = FarewellModel;
 
 
 // Define the User Schema
-const RegisterSchema = new mongoose.Schema({
+const HealthClubSchema = new mongoose.Schema({
   firstName: { type: String, required: true },
   lastName: { type: String, required: true },
   email: { type: String, required: true, unique: true },
   phoneNumber: { type: String, required: true },
   referralCode: { type: String },
+  where_did_you_hear_about_us: { type: String },
   password: { type: String, required: true },
-  beneficiaries: [
-    {
-      title: String,
-      firstName: String,
-      lastName: String,
-      gender: String,
-      phoneNumber: String,
-      dateOfBirth: Date,
-      stateOfResidence: String,
-      lgaOfResidence: String,
-      residentialAddress: String,
-      healthCondition: String,
-      relationship: String,
-      picture: Buffer,
-    },
-  ],
-  subscriptionPlan: { type: String, required: true },
-  serviceWorth: { type: Number, required: true },
-  serviceDuration: { type: String, required: true },
-  renewalOption: { type: String, required: true },
-  paymentMethod: { type: String, required: true },
-  totalAmount: { type: Number, required: true },
-  paymentStatus: { type: String, default: "pending" },
   shippingAddress: {
     firstName: { type: String, required: true },
     lastName: { type: String, required: true },
@@ -354,7 +338,7 @@ const RegisterSchema = new mongoose.Schema({
 });
 
 // Pre-save middleware to hash the password before saving
-RegisterSchema.pre("save", async function (next) {
+HealthClubSchema.pre("save", async function (next) {
   if (this.isModified("password") || this.isNew) {
     try {
       const salt = await bcrypt.genSalt(10);
@@ -369,9 +353,9 @@ RegisterSchema.pre("save", async function (next) {
 });
 
 // Method to generate random password
-RegisterSchema.methods.generateRandomPassword = function () {
+HealthClubSchema.methods.generateRandomPassword = function () {
   return crypto.randomBytes(8).toString("hex");
 };
 
-const RegisterModel = mongoose.model("Register", RegisterSchema);
-module.exports = RegisterModel;
+const HealthClubModel = mongoose.model("HealthClub", HealthClubSchema);
+module.exports = HealthClubModel;

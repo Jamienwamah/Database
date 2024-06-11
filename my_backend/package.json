@@ -20,7 +20,9 @@
     "migrate-mongo": "^11.0.0",
     "mongoose": "^8.4.1",
     "multer": "^1.4.5-lts.1",
-    "paystack": "^2.0.1"
+    "paystack": "^2.0.1",
+    "uuid": "^10.0.0",
+    "zeptomail": "^6.0.0"
   },
   "devDependencies": {
     "jest": "^29.7.0",

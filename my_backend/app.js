@@ -8,6 +8,7 @@ const path = require("path");
 const bcrypt = require("bcrypt");
 const paystack = require("paystack")(process.env.PAYSTACK_SECRET_KEY);
 const migrateMongo = require("migrate-mongo");
+const { SendMailClient } = require("zeptomail");
 const {
   DoctorModel,
   NonMedicalModel,
@@ -19,8 +20,8 @@ const {
   LaboratoryModel,
   HospitalClinicModel,
   PharmaciesModel,
-  UserModel,
-  RegisterModel,
+  FarewellModel,
+  HealthClubModel,
 } = require("./schema");
 
 // Configure multer storage
@@ -128,7 +129,16 @@ const handleFormSubmission = (Model) => async (req, res) => {
     const newFormData = new Model(formData);
 
     await newFormData.save();
-    res.status(201).send("Registration was successful");
+    // Send email notification using ZeptoMail
+    await zeptoClient.sendMail({
+      from: { address: "gmonietechnologies@gmail.com", name: "Paul Oseghale" },
+      to: [{ email_address: { address: req.body.email, name: req.body.name } }],
+      subject: "Registration Successful",
+      textbody: "Your registration was successful.",
+      htmlbody: "<strong>Your registration was successful.</strong>",
+    });
+
+    res.status(201).send("Registration was successful and email sent");
   } catch (err) {
     res
       .status(400)
@@ -227,26 +237,26 @@ app.post(
 );
 
 app.post(
-  "/userform",
+  "/farewellform",
   upload.single("upload_photo"),
-  handleFormSubmission(UserModel)
+  handleFormSubmission(FarewellModel)
 );
 
 // Custom user registration with optional password and shipping address
-app.post("/registerform", upload.none(), async (req, res) => {
+app.post("/healthclubform", upload.none(), async (req, res) => {
   try {
     // Check if user already exists
-    const existingUser = await RegisterModel.findOne({ email: req.body.email });
+    const existingUser = await HealthClubModel.findOne({ email: req.body.email });
     if (existingUser) {
       return res.status(400).send("User already registered");
     }
 
     // Use the password provided or generate a new one
     const password =
-      req.body.password || RegisterModel.generateRandomPassword();
+      req.body.password || HealthClubModel.generateRandomPassword();
     const hashedPassword = await bcrypt.hash(password, 10);
 
-    const newUser = new RegisterModel({
+    const newUser = new HealthClubModel({
       ...req.body,
       password: hashedPassword,
       shippingAddress: {
@@ -288,8 +298,8 @@ createDataRetrievalEndpoint("/data/laceai", LaceAiModel);
 createDataRetrievalEndpoint("/data/laboratory", LaboratoryModel);
 createDataRetrievalEndpoint("/data/hospital", HospitalClinicModel);
 createDataRetrievalEndpoint("/data/pharmacy", PharmaciesModel);
-createDataRetrievalEndpoint("/data/user", UserModel);
-createDataRetrievalEndpoint("/data/register", RegisterModel);
+createDataRetrievalEndpoint("/data/farewell", FarewellModel);
+createDataRetrievalEndpoint("/data/healthclub", HealthClubModel);
 
 // Serve the admin dashboard
 app.get("/admin", (req, res) => {
