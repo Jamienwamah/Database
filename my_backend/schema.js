@@ -260,6 +260,11 @@ const PharmaciesModel = mongoose.model("Pharmacy", PharmaciesSchema);
 
 module.exports = PharmaciesModel;
 
+function generateCustomId() {
+  const randomNum = Math.floor(100000 + Math.random() * 900000); 
+  return `SFP-${randomNum}`;
+}
+
 // Define the User Schema
 const FarewellSchema = new mongoose.Schema({
   firstName: { type: String, required: true },
@@ -272,7 +277,7 @@ const FarewellSchema = new mongoose.Schema({
     {
       id: {
         type: String,
-        default: uuidv4,
+        default: generateCustomId,
         unique: true,
       },
       title: String,
@@ -316,6 +321,10 @@ FarewellSchema.pre("save", async function (next) {
 const FarewellModel = mongoose.model("Farewell", FarewellSchema);
 module.exports = FarewellModel;
 
+function generateCustomsId() {
+  const randomNum = Math.floor(100000 + Math.random() * 900000); 
+  return `SFP-${randomNum}`;
+}
 
 // Define the User Schema
 const HealthClubSchema = new mongoose.Schema({
@@ -327,6 +336,11 @@ const HealthClubSchema = new mongoose.Schema({
   where_did_you_hear_about_us: { type: String },
   password: { type: String, required: true },
   shippingAddress: {
+    id: {
+      type: String,
+      default: generateCustomsId,
+      unique: true,
+    },
     firstName: { type: String, required: true },
     lastName: { type: String, required: true },
     address: { type: String, required: true },
