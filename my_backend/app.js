@@ -32,8 +32,10 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 
-const url = "api.zeptomail.com/";
-const token = process.env.ZEPTOMAIL_TOKEN; 
+const zeptoClient = new SendMailClient({
+  url: "https://api.zeptomail.com/",
+  token: process.env.ZEPTOMAIL_TOKEN,
+});
 
 // MongoDB connection using a URI
 const dbUri = "mongodb://localhost:27017/data";
