@@ -5,7 +5,9 @@
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js",
-    "test": "jest"
+    "test": "jest",
+    "migrate": "npx migrate-mongo up",
+    "build": "echo 'No build script necessary'"
   },
   "keywords": [],
   "author": "",

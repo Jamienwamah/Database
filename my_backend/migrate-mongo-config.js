@@ -3,10 +3,10 @@
 const config = {
   mongodb: {
     // The URL to your MongoDB instance
-    url: "mongodb://localhost:27017",
+    url: "mongodb+srv://gmonietechnologies:gmoniepass@cluster0.esd1xcf.mongodb.net/",
 
     // The name of the database to apply migrations to
-    databaseName: "data",
+    databaseName: "gmoniedata",
 
     options: {
       // These options are deprecated in the latest MongoDB driver and can be removed
