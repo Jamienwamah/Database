@@ -1,0 +1,314 @@
+.blurCircle {
+  height: 155.8px;
+  width: 155.8px;
+  position: relative;
+  filter: blur(56px);
+  border-radius: 869.24px;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    #e9d8ff,
+    rgba(255, 255, 255, 0),
+    rgba(233, 216, 255, 0)
+  );
+}
+.backgroundBlur {
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-2xl) 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.groupIcon {
+  height: 37px;
+  width: 39.3px;
+  position: relative;
+}
+.groupWrapper {
+  width: 218.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.holisticCareFor,
+.theElderly {
+  margin: 0;
+}
+.text {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+}
+.featureItem {
+  width: 236px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.text1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-text-web-size);
+  letter-spacing: -0.2px;
+  line-height: 27px;
+  font-family: var(--text-small-normal);
+  color: var(--text-grey);
+}
+.featureWrapper,
+.iconWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.featureWrapper {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.iconWrapper {
+  width: 253px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-9xs-8);
+  box-sizing: border-box;
+}
+.lineIcon {
+  width: 0;
+  height: 201px;
+  position: relative;
+  object-fit: contain;
+}
+.featureContent {
+  height: 264.5px;
+  width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.blurCircle1 {
+  height: 155.8px;
+  width: 155.8px;
+  position: relative;
+  filter: blur(56px);
+  border-radius: 869.24px;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    #e9d8ff,
+    rgba(255, 255, 255, 0),
+    rgba(233, 216, 255, 0)
+  );
+}
+.backgroundBlur1 {
+  width: 366px;
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-2xl) var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.vectorIcon {
+  height: 37px;
+  width: 37px;
+  position: relative;
+}
+.vectorWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.text2 {
+  align-self: stretch;
+  position: relative;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.text3 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-text-web-size);
+  letter-spacing: -0.2px;
+  line-height: 27px;
+  font-family: var(--text-small-normal);
+  color: var(--text-grey);
+}
+.eachFeatureWrapper {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-25xl) 0 var(--padding-7xs) var(--padding-8xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  min-width: 173px;
+}
+.lineIcon1 {
+  width: 0;
+  height: 201px;
+  position: relative;
+  object-fit: contain;
+}
+.lineWrapper {
+  height: 264.5px;
+  width: 6.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+}
+.blurCircle2 {
+  height: 155.8px;
+  width: 155.8px;
+  position: relative;
+  filter: blur(56px);
+  border-radius: 869.24px;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    #e9d8ff,
+    rgba(255, 255, 255, 0),
+    rgba(233, 216, 255, 0)
+  );
+}
+.backgroundBlur2 {
+  display: none;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-2xl) 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.icon {
+  height: 36px;
+  width: 36px;
+  position: relative;
+}
+.iconContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.intuitive,
+.mobileApp {
+  margin: 0;
+}
+.text4 {
+  align-self: stretch;
+  position: relative;
+  line-height: 140%;
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.text5 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-text-web-size);
+  letter-spacing: -0.2px;
+  line-height: 27px;
+  font-family: var(--text-small-normal);
+  color: var(--text-grey);
+}
+.featuresContentWrapperInner,
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.featuresContentWrapperInner {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+  min-width: 170px;
+}
+.featuresContentWrapper {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--fozanova-white);
+  border: 1px solid var(--color-ghostwhite-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-26xl) var(--padding-49xl) var(--padding-26xl)
+    var(--padding-63xl);
+  gap: var(--gap-10xl-5);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--fozanova-h3-size);
+  color: var(--fozanova-black);
+  font-family: var(--fozanova-h3);
+}
+@media screen and (max-width: 1050px) {
+  .featuresContentWrapper {
+    padding-left: var(--padding-22xl);
+    padding-right: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .eachFeatureWrapper,
+  .featuresContentWrapperInner {
+    flex: 1;
+  }
+  .featuresContentWrapper {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .text {
+    line-height: 27px;
+  }
+  .text,
+  .text2,
+  .text4 {
+    font-size: var(--font-size-lgi);
+  }
+  .text4 {
+    line-height: 27px;
+  }
+  .featuresContentWrapper {
+    padding-top: var(--padding-10xl);
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+}

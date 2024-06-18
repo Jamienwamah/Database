@@ -1,0 +1,104 @@
+.heading {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    width: 237px;
+    position: relative;
+    line-height: 26px;
+    font-weight: 600;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .headingWrapper,
+  .sectionTagWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .sectionTagWrapper {
+    width: 263px;
+    border-radius: var(--br-3xl);
+    background-color: var(--fozanova-gold);
+    border: 1px solid var(--fozanova-gold);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) var(--padding-3xs) var(--padding-8xs);
+    white-space: nowrap;
+  }
+  .headingWrapper {
+    align-self: stretch;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+  }
+  .text {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-29xl);
+    letter-spacing: -1px;
+    font-weight: 400;
+    color: var(--text-dark-blue);
+  }
+  .supportsolacecomng {
+    color: var(--fozanova-gold);
+  }
+  .text1 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    margin: 0;
+    flex: 1;
+    position: relative;
+    letter-spacing: -0.2px;
+    line-height: 27px;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .paragraph {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 var(--padding-21xl);
+    box-sizing: border-box;
+    color: var(--text-grey);
+  }
+  .content,
+  .headingWrapperParent,
+  .paragraph {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .headingWrapperParent {
+    width: 800px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+  }
+  .content {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: var(--body-text-web-size);
+    color: var(--fozanova-white);
+    font-family: var(--text-small-normal);
+  }
+  @media screen and (max-width: 975px) {
+    .text {
+      font-size: var(--font-size-19xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .text {
+      font-size: var(--font-size-10xl);
+    }
+  }
+  

@@ -1,0 +1,86 @@
+.text {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: -0.75px;
+  font-weight: 500;
+  color: var(--color-gray-200);
+}
+.span {
+  color: var(--color-gray-100);
+}
+.remote {
+  color: var(--fozanova-black);
+}
+.text1 {
+  position: relative;
+  letter-spacing: -0.2px;
+  line-height: 27px;
+}
+.readMore {
+  color: var(--fozanova-gold);
+}
+.text2 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.2px;
+  line-height: 27px;
+}
+.textParent {
+  width: 873px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs-5);
+  max-width: 100%;
+}
+.iconWrapper {
+  width: 55.1px;
+  height: 55.1px;
+  position: relative;
+  border-radius: var(--br-980xl);
+}
+.iconWrapperWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-xs-9);
+}
+.eachJobWrapper {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--fozanova-white);
+  border: 1px solid var(--color-ghostwhite-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-xl) var(--padding-xl) var(--padding-6xl);
+  gap: var(--gap-53xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-text-web-size);
+  color: var(--text-grey);
+  font-family: var(--text-small-normal);
+}
+@media screen and (max-width: 1050px) {
+  .eachJobWrapper {
+    flex-wrap: wrap;
+    gap: var(--gap-17xl);
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 725px) {
+  .eachJobWrapper {
+    gap: var(--gap-lg);
+  }
+}
+@media screen and (max-width: 450px) {
+  .text {
+    font-size: var(--text-medium-16-size);
+  }
+}
