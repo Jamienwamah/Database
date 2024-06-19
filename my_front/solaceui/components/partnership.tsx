@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import { useCallback } from "react";
 import { useRouter } from "next/router";
-import styles from "./frame-component2.module.css";
+import styles from "./partnership.module.css";
 
 export type FrameComponent2Type = {
   className?: string;

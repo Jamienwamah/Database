@@ -1,0 +1,164 @@
+.gisearthEuroAfricaOIcon {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  margin: 0 !important;
+  top: -4px;
+  left: 58.5px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.servicingAfrica {
+  position: relative;
+}
+.servicingAfricaWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-27xl) 0 0;
+}
+.imageCollectionWrapper {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.circle,
+.icon {
+  position: absolute;
+}
+.circle {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 0 solid var(--fozanova-gold);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.icon {
+  top: 32px;
+  left: 39px;
+  width: 49.9px;
+  height: 60px;
+  z-index: 3;
+}
+.circleParent {
+  height: 129px;
+  flex: 1;
+  position: relative;
+}
+.frameWrapper {
+  width: 129px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text {
+  width: 61px;
+  position: relative;
+  letter-spacing: -0.96px;
+  display: inline-block;
+  min-width: 61px;
+}
+.featureTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-30xl);
+}
+.text1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-family: var(--fozanova-h3);
+  color: var(--color-black1);
+}
+.featureTitleParent,
+.frameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.featureTitleParent {
+  align-self: stretch;
+  justify-content: flex-start;
+}
+.frameContainer {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-smi);
+}
+.frameParent {
+  width: 288px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  font-size: var(--font-size-17xl);
+  color: var(--fozanova-gold);
+  font-family: var(--text-small-normal);
+}
+.careerPageInner,
+.gisearthEuroAfricaOParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.gisearthEuroAfricaOParent {
+  width: 766px;
+  justify-content: space-between;
+  padding: var(--padding-lg) var(--padding-11xl) var(--padding-540xl)
+    var(--padding-10xs);
+  position: relative;
+  gap: var(--gap-xl);
+}
+.careerPageInner {
+  width: 1212px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  text-align: center;
+  font-size: var(--fozanova-h3-size);
+  color: var(--fozanova-black);
+  font-family: var(--fozanova-h3);
+}
+@media screen and (max-width: 1000px) {
+  .text {
+    font-size: var(--font-size-10xl);
+  }
+}
+@media screen and (max-width: 725px) {
+  .gisearthEuroAfricaOParent {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-344xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .servicingAfrica {
+    font-size: var(--font-size-lgi);
+  }
+  .text {
+    font-size: var(--font-size-3xl);
+  }
+  .text1 {
+    font-size: var(--text-medium-16-size);
+  }
+}

@@ -1,0 +1,106 @@
+.noise,
+.text {
+  position: relative;
+}
+.noise {
+  height: 238px;
+  width: 191.4px;
+  transform: rotate(-90deg);
+  display: none;
+  opacity: 0.5;
+  mix-blend-mode: overlay;
+}
+.text {
+  font-size: var(--body-text-web-size);
+  line-height: 26px;
+  font-weight: 600;
+  font-family: var(--text-small-normal);
+  color: var(--fozanova-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 70px;
+  z-index: 1;
+}
+.sectionTagWrapper,
+.sectionTagWrapperWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.sectionTagWrapper {
+  cursor: pointer;
+  border: 1.3px solid var(--fozanova-gold);
+  padding: var(--padding-10xs) var(--padding-base) var(--padding-6xs)
+    var(--padding-xl);
+  background-color: var(--fozanova-gold);
+  width: 108.2px;
+  border-radius: var(--br-19xl);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  gap: var(--gap-6xl-5);
+  white-space: nowrap;
+}
+.sectionTagWrapper:hover {
+  background-color: var(--color-darkgoldenrod);
+  border: 1.3px solid var(--color-darkgoldenrod);
+  box-sizing: border-box;
+}
+.sectionTagWrapperWrapper {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+}
+.text1,
+.text2 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+}
+.text1 {
+  font-size: inherit;
+  letter-spacing: -1px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.text2 {
+  font-size: var(--body-text-web-size);
+  letter-spacing: -0.2px;
+  line-height: 27px;
+  color: var(--text-grey);
+  font-family: var(--text-small-normal);
+}
+.frameParent,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 800px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--fozanova-black);
+  font-family: var(--fozanova-h3);
+}
+@media screen and (max-width: 1000px) {
+  .text1 {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .text1 {
+    font-size: var(--font-size-10xl);
+  }
+}

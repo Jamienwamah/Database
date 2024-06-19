@@ -1,0 +1,145 @@
+.solaceLogoChild,
+.solaceLogoItem {
+  height: 42px;
+  width: 42px;
+  position: relative;
+}
+.solaceLogoItem {
+  height: 28.9px;
+  width: 132.1px;
+}
+.solaceLogo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  cursor: pointer;
+}
+.navlinks,
+.navlinks1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.2px;
+  line-height: 27px;
+  color: inherit;
+  display: inline-block;
+  min-width: 49px;
+  cursor: pointer;
+}
+.navlinks1 {
+  min-width: 47px;
+}
+.navlinks2 {
+  flex: 1;
+  min-width: 57px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.navlinks2,
+.navlinks3,
+.navlinks4,
+.navlinks5 {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: -0.2px;
+  line-height: 27px;
+  color: inherit;
+  display: inline-block;
+}
+.navlinks3 {
+  flex: 1;
+  min-width: 54px;
+  cursor: pointer;
+}
+.navlinks4,
+.navlinks5 {
+  min-width: 36px;
+}
+.navlinks5 {
+  min-width: 35px;
+  cursor: pointer;
+}
+.navButtonText,
+.navlinksCollection {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 15px;
+  color: var(--fozanova-white);
+  text-align: left;
+}
+.navlinksCollection {
+  margin: 0;
+  width: 356px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base-6);
+  max-width: 100%;
+}
+.navButtonText {
+  text-decoration: none;
+  position: relative;
+  line-height: 26px;
+  font-weight: 600;
+}
+.navButtonWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-11xl);
+  background-color: var(--fozanova-gold);
+  border-radius: var(--br-xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.navButtonWrapper:hover {
+  background-color: var(--color-darkgoldenrod);
+}
+.navigationWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.main,
+.navigationDesktop {
+  display: flex;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.navigationDesktop {
+  width: 1058px;
+  border-radius: var(--br-28xl);
+  background-color: var(--fozanova-black);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-xl);
+}
+.main {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+@media screen and (max-width: 975px) {
+  .navlinksCollection {
+    display: none;
+  }
+}

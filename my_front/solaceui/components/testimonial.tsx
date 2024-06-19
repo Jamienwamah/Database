@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import styles from "./frame-component1.module.css";
+import styles from "./testimonial.module.css";
 
 export type FrameComponent1Type = {
   className?: string;

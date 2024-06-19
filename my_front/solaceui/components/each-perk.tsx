@@ -42,11 +42,9 @@ const EachPerk: NextPage<EachPerkType> = ({
       <svg
         className={styles.lineIcon}
         xmlns="http://www.w3.org/2000/svg"
-        width="100"
-        height="100"
-        viewBox="0 0 100 100"
+        viewBox="0 0 24 24"
       >
-        <line x1="0" y1="50" x2="100" y2="50" stroke="black" />
+        <use href="/line2.svg#Layer_1" />
       </svg>
 
       <p className={styles.text1} style={text1Style}>

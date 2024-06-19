@@ -1,0 +1,79 @@
+.vectorIcon {
+  height: 37px;
+  width: 37px;
+  position: relative;
+}
+.valueItem {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.careSolution,
+.laceAiProactive {
+  margin: 0;
+}
+.text {
+  position: relative;
+  letter-spacing: -0.8px;
+  line-height: 28px;
+}
+.divider,
+.text,
+.text1 {
+  align-self: stretch;
+}
+.divider {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xs);
+  gap: var(--gap-base);
+  font-size: var(--fozanova-h3-size);
+  font-family: var(--fozanova-h3);
+}
+.text1 {
+  margin: 0;
+  position: relative;
+  letter-spacing: -0.2px;
+  line-height: 27px;
+  color: var(--text-grey);
+}
+.navButton {
+  position: relative;
+  line-height: 26px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 94px;
+  white-space: nowrap;
+}
+.value,
+.valueIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-50xl) 0 var(--padding-48xl);
+  text-align: left;
+  color: var(--fozanova-gold);
+}
+.value {
+  width: 236px;
+  flex-direction: column;
+  padding: 0 var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  text-align: center;
+  font-size: var(--body-text-web-size);
+  color: var(--fozanova-black);
+  font-family: var(--text-small-normal);
+}
+@media screen and (max-width: 450px) {
+  .text {
+    font-size: var(--font-size-lgi);
+    line-height: 22px;
+  }
+}

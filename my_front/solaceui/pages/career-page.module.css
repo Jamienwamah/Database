@@ -1,0 +1,25 @@
+.careerPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--background-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-61xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 725px) {
+  .careerPage {
+    gap: var(--gap-21xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .careerPage {
+    gap: var(--gap-xl);
+  }
+}

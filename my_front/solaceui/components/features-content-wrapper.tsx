@@ -32,7 +32,8 @@ const FeaturesContentWrapper: NextPage<FeaturesContentWrapperType> = ({
           </div>
           <p
             className={styles.text1}
-          >{`Beyond doctor visits, we leverage our AI solution to provide a proactive care for the elderly that caters for their general well-being. `}</p>
+          >{`Beyond doctor visits, we leverage our AI solution to provide a proactive care for the 
+          elderly that caters for their general well-being. `}</p>
         </div>
       </div>
       <div className={styles.featureContent}>
@@ -65,7 +66,8 @@ const FeaturesContentWrapper: NextPage<FeaturesContentWrapperType> = ({
         </div>
         <p
           className={styles.text3}
-        >{`Because it doesn't exist, we are building the most advanced tech infrastructure that will drive the provision of world-class holistic care for the elderly in Africa. `}</p>
+        >{`Because it doesn't exist, we are building the most advanced tech infrastructure that 
+        will drive the provision of world-class holistic care for the elderly in Africa. `}</p>
       </div>
       <div className={styles.lineWrapper}>
         <svg
@@ -98,7 +100,8 @@ const FeaturesContentWrapper: NextPage<FeaturesContentWrapperType> = ({
           </div>
           <p
             className={styles.text5}
-          >{`We offer the most intuitive On-demand Care Service Delivery System (OCSDS) that guarantees best service quality for the elderly & their loved ones in Africa.`}</p>
+          >{`We offer the most intuitive On-demand Care Service Delivery System (OCSDS) that guarantees 
+          best service quality for the elderly & their loved ones in Africa.`}</p>
         </div>
       </div>
     </div>

@@ -1,0 +1,206 @@
+.solaceLogoChild,
+.solaceLogoItem {
+  height: 42px;
+  width: 42px;
+  position: relative;
+}
+.solaceLogoItem {
+  height: 28.9px;
+  width: 132.1px;
+}
+.solaceLogo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  cursor: pointer;
+}
+.navlinks,
+.navlinks1 {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.2px;
+  line-height: 27px;
+  color: inherit;
+  display: inline-block;
+  min-width: 49px;
+  cursor: pointer;
+}
+.navlinks1 {
+  min-width: 47px;
+}
+.navlinks2 {
+  flex: 1;
+  min-width: 57px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.navlinks2,
+.navlinks3,
+.navlinks4,
+.navlinks5 {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: -0.2px;
+  line-height: 27px;
+  color: inherit;
+  display: inline-block;
+}
+.navlinks3 {
+  flex: 1;
+  min-width: 54px;
+}
+.navlinks4,
+.navlinks5 {
+  min-width: 36px;
+  cursor: pointer;
+}
+.navlinks5 {
+  min-width: 35px;
+}
+.navButtonText,
+.navlinksCollection {
+  font-size: var(--body-text-web-size);
+  font-family: var(--text-small-normal);
+  color: var(--fozanova-white);
+  text-align: left;
+}
+.navlinksCollection {
+  margin: 0;
+  width: 356px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base-6);
+  max-width: 100%;
+}
+.navButtonText {
+  text-decoration: none;
+  position: relative;
+  line-height: 26px;
+  font-weight: 600;
+}
+.navButtonWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-11xl);
+  background-color: var(--fozanova-gold);
+  border-radius: var(--br-xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.navButtonWrapper:hover {
+  background-color: var(--color-darkgoldenrod);
+}
+.navigationDesktop,
+.navigationWrapper {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.navigationWrapper {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.navigationDesktop {
+  border-radius: var(--br-28xl);
+  background-color: var(--fozanova-black);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+.text {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -1px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.lookingForAn,
+.workforceTodayAnd {
+  display: block;
+}
+.text1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-text-web-size);
+  letter-spacing: -0.2px;
+  line-height: 27px;
+  font-family: var(--text-small-normal);
+  color: var(--text-grey);
+}
+.heroHeadingWrapper {
+  width: 935px;
+  gap: var(--gap-mini);
+}
+.headerSection,
+.headerSection1,
+.heroHeadingWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.headerSection1 {
+  align-self: stretch;
+  gap: var(--gap-51xl);
+}
+.headerSection {
+  width: 1058px;
+}
+.headerSectionWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--text-dark-blue);
+  font-family: var(--fozanova-h3);
+}
+@media screen and (max-width: 1050px) {
+  .headerSection,
+  .headerSection1 {
+    gap: var(--gap-16xl);
+  }
+}
+@media screen and (max-width: 1000px) {
+  .text {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 725px) {
+  .navlinksCollection {
+    display: none;
+  }
+  .headerSection,
+  .headerSection1 {
+    gap: var(--gap-mid);
+  }
+}
+@media screen and (max-width: 450px) {
+  .text {
+    font-size: var(--font-size-10xl);
+  }
+}

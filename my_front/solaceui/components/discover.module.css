@@ -1,0 +1,686 @@
+.text {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -1px;
+  line-height: 137.02%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.frameChild {
+  height: 454px;
+  width: 495px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -24px;
+  left: -23px;
+  border-radius: var(--br-base);
+  background-color: var(--color-wheat-100);
+}
+.frameInner,
+.frameItem {
+  position: relative;
+  flex-shrink: 0;
+}
+.frameItem {
+  height: 39.2px;
+  width: 39.2px;
+  debug_commit: bf4bc93;
+}
+.frameInner {
+  align-self: stretch;
+  height: 27px;
+  max-width: 100%;
+  overflow: hidden;
+}
+.cardType {
+  position: relative;
+  letter-spacing: 0.03em;
+  display: inline-block;
+  min-width: 52px;
+}
+.cardTypeWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-7xs-7);
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+}
+.frameContainer,
+.frameGroup,
+.frameWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-6xs-1) 0 0;
+}
+.frameGroup {
+  width: 175.7px;
+  flex-direction: row;
+  gap: var(--gap-xs-2);
+}
+.rfidIcon,
+.siliconChip {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+}
+.siliconChip {
+  height: 82.6px;
+  width: 60.1px;
+  border-radius: 8.26px;
+  overflow: hidden;
+}
+.rfidIcon {
+  width: 38.4px;
+  flex: 1;
+  max-height: 100%;
+}
+.frameWrapper1,
+.rfidWrapper,
+.siliconChipParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rfidWrapper {
+  height: 60.5px;
+  flex-direction: column;
+  padding: var(--padding-smi-1) 0 0;
+  box-sizing: border-box;
+}
+.frameWrapper1,
+.siliconChipParent {
+  flex-direction: row;
+}
+.siliconChipParent {
+  gap: var(--gap-7xl-3);
+}
+.frameWrapper1 {
+  padding: 0 0 0 var(--padding-11xs);
+}
+.cardType1 {
+  position: relative;
+  letter-spacing: 0.03em;
+  display: inline-block;
+  min-width: 127px;
+}
+.frameDiv,
+.frameParent {
+  display: flex;
+  align-items: flex-start;
+}
+.frameDiv {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xs-4);
+  min-width: 127px;
+  color: var(--fozanova-white);
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.patternIcon {
+  margin-right: -137px;
+  width: 642px;
+  height: 152.8px;
+  position: relative;
+  max-width: 175%;
+  flex-shrink: 0;
+}
+.top {
+  align-self: stretch;
+  height: 419px;
+  background-color: var(--fozanova-gold);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-18xl) var(--padding-23xl) var(--padding-243xl)
+    var(--padding-22xl);
+  box-sizing: border-box;
+  gap: var(--gap-106xl-8);
+  max-width: 100%;
+}
+.cardHolderName,
+.div {
+  position: relative;
+  display: inline-block;
+}
+.div {
+  width: 355px;
+  font-size: var(--font-size-13xl);
+  color: var(--fozanova-white);
+  white-space: pre-wrap;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  max-width: 100%;
+}
+.cardHolderName {
+  min-width: 103px;
+}
+.cardholderName {
+  position: relative;
+  font-size: var(--fozanova-h3-size);
+  color: var(--fozanova-white);
+}
+.cardHolderNameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-xl-7);
+  gap: var(--gap-9xs);
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+}
+.ornament12Icon {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.b,
+.validThru {
+  position: relative;
+  display: inline-block;
+  min-width: 58px;
+  z-index: 1;
+}
+.b {
+  font-size: var(--font-size-sm);
+  font-weight: 700;
+  color: var(--color-gray-800);
+  min-width: 40px;
+}
+.validThruParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.b1,
+.validThru1 {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.validThru1 {
+  align-self: stretch;
+  height: 12px;
+}
+.b1 {
+  width: 34px;
+  height: 14px;
+  font-size: var(--font-size-xs);
+  font-weight: 700;
+  color: var(--color-gray-800);
+}
+.validThruGroup {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-11xs);
+}
+.frameWrapper2,
+.ornament12Parent,
+.validThruGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper2 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 var(--padding-6xl);
+}
+.ornament12Parent {
+  height: 201px;
+  width: 201px;
+  flex-direction: column;
+  padding: var(--padding-9xs) var(--padding-30xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-29xl);
+  min-width: 201px;
+}
+.cardIssuerLogo {
+  height: 33px;
+  width: 103.2px;
+  position: relative;
+}
+.frameParent1 {
+  margin-left: -49px;
+  width: 419.7px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+  max-width: 110%;
+  gap: var(--gap-xl);
+}
+.bottom,
+.rectangleParent,
+.shcCard {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.bottom {
+  align-self: stretch;
+  background-color: var(--fozanova-black);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-8xl) var(--padding-14xl) var(--padding-118xl);
+  box-sizing: border-box;
+  gap: var(--gap-23xl);
+  font-size: var(--font-size-3xs);
+  color: var(--color-gray-600);
+}
+.rectangleParent,
+.shcCard {
+  flex: 1;
+}
+.shcCard {
+  border-radius: 20.64px;
+  background-color: var(--fozanova-white);
+  overflow: hidden;
+  flex-direction: column;
+  z-index: 1;
+}
+.rectangleParent {
+  flex-direction: row;
+  position: relative;
+  min-width: 292px;
+}
+.text1,
+.text2 {
+  align-self: stretch;
+  position: relative;
+}
+.text1 {
+  white-space: nowrap;
+}
+.text2 {
+  font-size: var(--body-text-web-size);
+  letter-spacing: -0.29px;
+  line-height: 32px;
+  font-family: var(--text-small-normal);
+  color: var(--text-grey);
+}
+.textGroup {
+  width: 380.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.check1Traced,
+.text3 {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+}
+.check1Traced {
+  height: 24px;
+  width: 24px;
+}
+.text3 {
+  margin: 0;
+  flex: 1;
+  display: inline-block;
+  min-width: 228px;
+  max-width: 100%;
+}
+.eachAdditionalFeature {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs-1);
+  max-width: 100%;
+}
+.check1Traced1,
+.text4 {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+}
+.check1Traced1 {
+  height: 24px;
+  width: 24px;
+}
+.text4 {
+  margin: 0;
+  flex: 1;
+  display: inline-block;
+  min-width: 228px;
+  max-width: 100%;
+}
+.eachAdditionalFeature1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs-1);
+  max-width: 100%;
+}
+.check1Traced2,
+.text5 {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+}
+.check1Traced2 {
+  height: 24px;
+  width: 24px;
+}
+.text5 {
+  margin: 0;
+  flex: 1;
+  display: inline-block;
+  min-width: 228px;
+  max-width: 100%;
+}
+.eachAdditionalFeature2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs-1);
+  max-width: 100%;
+}
+.check1Traced3,
+.text6 {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+}
+.check1Traced3 {
+  height: 24px;
+  width: 24px;
+}
+.text6 {
+  margin: 0;
+  flex: 1;
+  display: inline-block;
+  min-width: 228px;
+  max-width: 100%;
+}
+.eachAdditionalFeature3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs-1);
+  max-width: 100%;
+}
+.check1Traced4,
+.text7 {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+}
+.check1Traced4 {
+  height: 24px;
+  width: 24px;
+}
+.text7 {
+  margin: 0;
+  flex: 1;
+  display: inline-block;
+  min-width: 228px;
+  max-width: 100%;
+}
+.eachAdditionalFeature4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs-1);
+  max-width: 100%;
+}
+.check1Traced5,
+.text8 {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+}
+.check1Traced5 {
+  height: 24px;
+  width: 24px;
+}
+.text8 {
+  margin: 0;
+  flex: 1;
+  display: inline-block;
+  min-width: 228px;
+  max-width: 100%;
+}
+.eachAdditionalFeature5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs-1);
+  max-width: 100%;
+}
+.features,
+.submitApplication {
+  font-size: var(--body-text-web-size);
+  font-family: var(--text-small-normal);
+}
+.features {
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.submitApplication {
+  position: relative;
+  line-height: 26px;
+  font-weight: 600;
+  color: var(--fozanova-white);
+  text-align: left;
+}
+.button,
+.frameParent2 {
+  display: flex;
+  align-items: flex-start;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-xl);
+  background-color: var(--fozanova-gold);
+  align-self: stretch;
+  border-radius: var(--br-13xl);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-darkgoldenrod);
+}
+.frameParent2 {
+  width: 409.9px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  min-width: 409.9000000000001px;
+  max-width: 100%;
+  font-size: var(--font-size-29xl);
+  color: var(--text-dark-blue);
+  font-family: var(--fozanova-h3);
+}
+.solaceShc {
+  align-self: stretch;
+  border-radius: var(--br-base);
+  background-color: var(--fozanova-white);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-38xl) var(--padding-15xl) var(--padding-38xl)
+    var(--padding-38xl);
+  box-sizing: border-box;
+  gap: var(--gap-55xl);
+  text-align: left;
+  font-size: var(--font-size-5xl-8);
+  font-family: var(--text-small-normal);
+}
+.solaceHealthClubInner,
+.solaceShc,
+.textParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.textParent {
+  width: 1025px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-9xl);
+}
+.solaceHealthClubInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--fozanova-black);
+  font-family: var(--fozanova-h3);
+}
+@media screen and (max-width: 1050px) {
+  .text {
+    font-size: var(--font-size-19xl);
+    line-height: 53px;
+  }
+  .div {
+    font-size: var(--font-size-7xl);
+  }
+  .text1 {
+    font-size: var(--font-size-19xl);
+  }
+  .frameParent2 {
+    flex: 1;
+  }
+  .solaceShc {
+    flex-wrap: wrap;
+    gap: var(--gap-18xl);
+    padding-left: var(--padding-9xl);
+    padding-top: var(--padding-18xl);
+    padding-bottom: var(--padding-18xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameDiv,
+  .siliconChipParent {
+    flex: 1;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .top {
+    height: auto;
+    gap: var(--gap-44xl);
+    padding-top: var(--padding-5xl);
+    padding-right: var(--padding-2xl);
+    padding-bottom: var(--padding-151xl);
+    box-sizing: border-box;
+  }
+  .ornament12Parent {
+    flex: 1;
+  }
+  .frameParent1 {
+    flex-wrap: wrap;
+  }
+  .bottom {
+    height: auto;
+    gap: var(--gap-2xl);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-70xl);
+    box-sizing: border-box;
+  }
+  .frameParent2 {
+    min-width: 100%;
+  }
+  .solaceShc {
+    gap: var(--gap-lg);
+  }
+}
+@media screen and (max-width: 450px) {
+  .text {
+    font-size: var(--font-size-10xl);
+    line-height: 39px;
+  }
+  .cardType,
+  .cardType1 {
+    font-size: var(--font-size-xl);
+  }
+  .top {
+    gap: var(--gap-12xl);
+  }
+  .cardholderName,
+  .div {
+    font-size: var(--font-size-lgi);
+  }
+  .text1 {
+    font-size: var(--font-size-10xl);
+  }
+  .eachAdditionalFeature,
+  .eachAdditionalFeature1,
+  .eachAdditionalFeature2,
+  .eachAdditionalFeature3,
+  .eachAdditionalFeature4,
+  .eachAdditionalFeature5 {
+    flex-wrap: wrap;
+  }
+  .frameParent2 {
+    gap: var(--gap-xl);
+  }
+  .solaceShc {
+    padding-top: var(--padding-5xl);
+    padding-bottom: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+}

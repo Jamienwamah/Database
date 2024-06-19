@@ -52,12 +52,17 @@ const EachBlogMainWrapper: NextPage<EachBlogMainWrapperType> = ({
       <div className={styles.eachBlogWrapper}>
         <div className={styles.eachBlogContent}>
           <div className={styles.wrapperBlogsFeaturedImage}>
-            <img
+            <svg
               className={styles.blogsFeaturedImage}
-              loading="lazy"
-              alt=""
-              src="/blogs-featured-image@2x.png"
-            />
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 32 32"
+            >
+              <image
+                href="/blogs-featured-image@2x.png"
+                width="32"
+                height="32"
+              />
+            </svg>
           </div>
           <div className={styles.blogCategoryTagMainWrapper}>
             <div className={styles.blogCategoryTagWrapper}>

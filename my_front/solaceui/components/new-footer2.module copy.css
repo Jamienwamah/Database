@@ -1,0 +1,414 @@
+.solaceLogoChild,
+.solaceLogoItem {
+  height: 42px;
+  width: 42px;
+  position: relative;
+}
+.solaceLogoItem {
+  height: 28.9px;
+  width: 132.1px;
+}
+.solaceLogo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.about {
+  text-decoration: none;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 50px;
+}
+.menuLinks {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-4xs);
+  box-sizing: border-box;
+  min-width: 45px;
+  cursor: pointer;
+}
+.cover,
+.menuLinks1 {
+  position: relative;
+  display: inline-block;
+}
+.menuLinks1 {
+  font-size: var(--font-size-sm);
+  font-family: var(--font-roboto);
+  min-width: 4px;
+}
+.cover {
+  min-width: 48px;
+}
+.menuLinks2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-4xs);
+}
+.laceAi,
+.menuLinks3 {
+  position: relative;
+  display: inline-block;
+}
+.menuLinks3 {
+  font-size: var(--font-size-sm);
+  font-family: var(--font-roboto);
+  min-width: 4px;
+}
+.laceAi {
+  min-width: 58px;
+}
+.menuLinks4 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  min-width: 51px;
+  cursor: pointer;
+}
+.carrier,
+.menuLinks5 {
+  position: relative;
+  display: inline-block;
+}
+.menuLinks5 {
+  font-size: var(--font-size-sm);
+  font-family: var(--font-roboto);
+  min-width: 4px;
+}
+.carrier {
+  min-width: 58px;
+}
+.menuLinks6 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-5xs);
+  box-sizing: border-box;
+  min-width: 51px;
+  cursor: pointer;
+}
+.faqs,
+.menuLinks7 {
+  position: relative;
+  display: inline-block;
+}
+.menuLinks7 {
+  font-size: var(--font-size-sm);
+  font-family: var(--font-roboto);
+  min-width: 4px;
+}
+.faqs {
+  min-width: 44px;
+}
+.menuLinks8 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  cursor: pointer;
+}
+.blog,
+.menuLinks9 {
+  position: relative;
+  display: inline-block;
+}
+.menuLinks9 {
+  font-size: var(--font-size-sm);
+  font-family: var(--font-roboto);
+  min-width: 4px;
+}
+.blog {
+  min-width: 36px;
+}
+.menuLinks10 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs);
+  cursor: pointer;
+}
+.footerLinkWrapper,
+.footerMenu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+}
+.footerMenu {
+  width: 669px;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.footerLinkWrapper {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.divider {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gray-700);
+  box-sizing: border-box;
+}
+.coverage {
+  position: relative;
+  line-height: 100%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 85px;
+}
+.includingTheFct,
+.statesOfThe {
+  position: relative;
+  line-height: 150%;
+}
+.statesOfThe {
+  align-self: stretch;
+}
+.includingTheFct {
+  width: 197px;
+  display: inline-block;
+}
+.companyWrapper,
+.hoursOfOperationsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.companyWrapper {
+  align-self: stretch;
+  gap: var(--gap-11xs);
+  text-align: center;
+  font-size: var(--body-text-web-size);
+}
+.hoursOfOperationsWrapper {
+  width: 215px;
+  gap: var(--gap-5xl);
+}
+.address1 {
+  position: relative;
+  line-height: 100%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 74px;
+}
+.plot750Aminu {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-text-web-size);
+  line-height: 24px;
+  white-space: pre-wrap;
+  text-align: center;
+}
+.address {
+  width: 264px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.contact1 {
+  position: relative;
+  line-height: 100%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 72px;
+}
+.mailOutlineIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.supportsolacecomng {
+  position: relative;
+  white-space: nowrap;
+}
+.mailWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.addIcCallIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.phoneNumber {
+  position: relative;
+  line-height: 150%;
+}
+.phoneWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-mid);
+  gap: var(--gap-5xs);
+  font-size: var(--text-medium-16-size);
+  font-family: var(--font-roboto);
+}
+.contact,
+.emailPhone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.emailPhone {
+  justify-content: center;
+  gap: var(--gap-5xs);
+  font-size: var(--body-text-web-size);
+}
+.contact {
+  justify-content: flex-start;
+  padding: 0 var(--padding-5xl);
+  gap: var(--gap-5xl);
+}
+.footerDetailsWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-xl);
+}
+.divider1 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-gray-700);
+  box-sizing: border-box;
+}
+.privacyPolicy,
+.termsOfUse {
+  color: var(--fozanova-gold);
+}
+.gmonieTechnologiesLtdContainer {
+  margin: 0;
+  width: 710px;
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.socialIconList {
+  height: 16px;
+  width: 13.9px;
+  position: relative;
+  min-height: 16px;
+}
+.socialIconList1,
+.socialIconList2 {
+  align-self: stretch;
+  width: 22.8px;
+  position: relative;
+  max-height: 100%;
+  min-height: 16px;
+}
+.socialIconList2 {
+  width: 7.5px;
+}
+.socialIconList3 {
+  height: 16px;
+  width: 16.9px;
+  position: relative;
+  min-height: 16px;
+}
+.socialIcons,
+.socialIconsWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.socialIcons {
+  flex-direction: row;
+  gap: var(--gap-xl);
+}
+.socialIconsWrapper {
+  flex-direction: column;
+  padding: var(--padding-xs) 0 0;
+}
+.companyDetailsWrapper,
+.newFooter {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  font-size: var(--text-small-normal-size);
+  color: var(--color-gray-800);
+}
+.newFooter {
+  background-color: var(--fozanova-black);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-61xl) var(--padding-61xl) var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-20xl-5);
+  text-align: left;
+  font-size: var(--body-text-web-size);
+  color: var(--fozanova-white);
+  font-family: var(--text-small-normal);
+}
+@media screen and (max-width: 1050px) {
+  .footerLinkWrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .companyDetailsWrapper,
+  .footerDetailsWrapper {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .footerMenu {
+    flex-wrap: wrap;
+  }
+  .newFooter {
+    gap: var(--gap-xl);
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .address1,
+  .contact1,
+  .coverage {
+    font-size: var(--text-medium-16-size);
+    line-height: 16px;
+  }
+  .newFooter {
+    padding-top: var(--padding-33xl);
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}

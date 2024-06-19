@@ -1,0 +1,306 @@
+.label {
+  position: relative;
+  font-size: var(--body-text-web-size);
+  letter-spacing: 0.3px;
+  line-height: 170%;
+  font-weight: 700;
+  font-family: var(--text-small-normal);
+  color: var(--fozanova-white);
+  text-align: left;
+}
+.item,
+.label1 {
+  white-space: nowrap;
+}
+.item {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-4xs-5) var(--padding-mini);
+  background-color: var(--fozanova-gold);
+  box-shadow: 1px 2px 12px rgba(17, 24, 39, 0.03);
+  border-radius: var(--br-9xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.input1:hover,
+.item:hover {
+  background-color: var(--color-darkgoldenrod);
+}
+.label1 {
+  position: relative;
+  letter-spacing: 0.3px;
+  line-height: 150%;
+  font-weight: 500;
+}
+.item1 {
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs-5) var(--padding-xs);
+  cursor: pointer;
+}
+.label2 {
+  position: relative;
+  letter-spacing: 0.3px;
+  line-height: 150%;
+  font-weight: 500;
+}
+.item2,
+.segmentControl,
+.segmentControlWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.item2 {
+  border-radius: var(--br-5xs);
+  justify-content: flex-start;
+  padding: var(--padding-2xs-5) var(--padding-6xl);
+  cursor: pointer;
+}
+.segmentControl,
+.segmentControlWrapper {
+  justify-content: center;
+  max-width: 100%;
+}
+.segmentControl {
+  row-gap: 20px;
+}
+.segmentControlWrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.iconFrame {
+  height: 86.3px;
+  width: 89.4px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconFrameWrapper {
+  width: 484px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.text,
+.text1 {
+  margin: 0;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: bf4bc93;
+}
+.text {
+  align-self: stretch;
+  font-size: inherit;
+  letter-spacing: -1px;
+  font-weight: 400;
+  font-family: inherit;
+}
+.text1 {
+  height: 49.8px;
+  flex: 1;
+  letter-spacing: -0.2px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.textParent,
+.textWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.textWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-18xl) 0 var(--padding-17xl);
+  box-sizing: border-box;
+  font-size: var(--body-text-web-size);
+  font-family: var(--text-small-normal);
+}
+.textParent {
+  width: 484px;
+  flex-direction: column;
+  gap: var(--gap-7xl);
+}
+.text2 {
+  position: relative;
+  letter-spacing: -0.2px;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 98px;
+}
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-3xs-8);
+}
+.text3 {
+  width: 162px;
+  position: relative;
+  font-size: var(--text-small-normal-size);
+  line-height: 16px;
+  font-weight: 800;
+  font-family: var(--text-small-normal);
+  color: var(--fozanova-white);
+  white-space: pre-wrap;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input,
+.input1 {
+  display: flex;
+  flex-direction: row;
+}
+.input1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-lgi) var(--padding-sm-3)
+    var(--padding-9xl);
+  background-color: var(--fozanova-gold);
+  box-shadow: 0 1px 1px rgba(88, 111, 54, 0.08);
+  border-radius: var(--br-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.input {
+  flex: 1;
+  box-shadow: 0 2px 24px 2px rgba(29, 32, 36, 0.02);
+  border-radius: var(--br-xs);
+  background-color: var(--fozanova-white);
+  border: 1px solid var(--color-aliceblue);
+  box-sizing: border-box;
+  overflow: hidden;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-12xs) var(--padding-10xs) var(--padding-12xs)
+    var(--padding-mid);
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.inputWrapper {
+  width: 484px;
+  padding: 0 var(--padding-6xs);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-slategray-100);
+  font-family: var(--text-small-normal);
+}
+.ctaSection,
+.downloadButtons,
+.downloadButtonsWrapper,
+.inputWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.downloadButtons {
+  padding: 0;
+  gap: var(--gap-5xl);
+}
+.ctaSection,
+.downloadButtonsWrapper {
+  padding: 0 var(--padding-41xl);
+}
+.ctaSection {
+  width: 1058px;
+  border-radius: var(--br-5xl);
+  background-color: var(--fozanova-black);
+  border: 1px solid var(--color-ghostwhite-100);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-33xl) var(--padding-xl) var(--padding-33xl)
+    var(--padding-5xl);
+  gap: var(--gap-21xl);
+}
+.farewellPageQuarterlyPayme,
+.plans {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.plans {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-29xl);
+  color: var(--fozanova-white);
+  font-family: var(--fozanova-h3);
+}
+.farewellPageQuarterlyPayme {
+  width: 100%;
+  position: relative;
+  background-color: var(--background-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+  gap: var(--gap-61xl);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--body-text-web-size);
+  color: var(--dark-gray);
+  font-family: var(--text-medium-16);
+}
+@media screen and (max-width: 1050px) {
+  .text {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .downloadButtons,
+  .segmentControl {
+    flex-wrap: wrap;
+  }
+  .downloadButtonsWrapper {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .ctaSection {
+    gap: var(--gap-xl);
+    padding-top: var(--padding-15xl);
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+  .farewellPageQuarterlyPayme {
+    gap: var(--gap-21xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .text {
+    font-size: var(--font-size-10xl);
+  }
+  .input {
+    flex-wrap: wrap;
+  }
+  .farewellPageQuarterlyPayme {
+    gap: var(--gap-xl);
+  }
+}

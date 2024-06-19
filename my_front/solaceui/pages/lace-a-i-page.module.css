@@ -1,0 +1,37 @@
+.maskGroupIcon {
+  width: 1058px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.laceAiPage,
+.maskGroupWrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.maskGroupWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-5xl);
+  max-width: 100%;
+}
+.laceAiPage {
+  width: 100%;
+  position: relative;
+  background-color: var(--background-white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-mini) 0 0;
+  gap: var(--gap-37xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .laceAiPage {
+    gap: var(--gap-9xl);
+  }
+}

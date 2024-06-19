@@ -1,0 +1,201 @@
+.text {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -2px;
+  line-height: 120%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.solaceIsA,
+.theirLovedOnes,
+.upTo25 {
+  display: block;
+}
+.text1 {
+  margin: 0;
+  align-self: stretch;
+  height: 92px;
+  position: relative;
+  font-size: var(--body-text-web-size);
+  letter-spacing: -0.2px;
+  line-height: 27px;
+  font-family: var(--text-small-normal);
+  color: var(--text-grey);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.downloadButtons,
+.heroHeadingWrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+.heroHeadingWrapper {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-xl);
+  text-align: center;
+}
+.downloadButtons {
+  width: 381.5px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 0;
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-inter);
+}
+.maskGroupIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.text2,
+.text3 {
+  position: relative;
+  display: inline-block;
+  min-width: 61px;
+}
+.text3 {
+  font-size: var(--text-medium-16-size);
+  letter-spacing: -0.2px;
+  line-height: 22px;
+  font-family: var(--text-small-normal);
+  color: var(--fozanova-black);
+  min-width: 117px;
+}
+.statsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lineIcon {
+  height: 84px;
+  width: 1px;
+  object-fit: contain;
+}
+.lineIcon,
+.text4,
+.text5 {
+  position: relative;
+}
+.text4 {
+  display: inline-block;
+  min-width: 127px;
+}
+.text5 {
+  font-size: var(--text-medium-16-size);
+  letter-spacing: -0.2px;
+  line-height: 22px;
+  font-family: var(--text-small-normal);
+  color: var(--fozanova-black);
+  white-space: nowrap;
+}
+.statsWrapper1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lineIcon1 {
+  height: 84px;
+  width: 1px;
+  object-fit: contain;
+}
+.lineIcon1,
+.text6,
+.text7 {
+  position: relative;
+}
+.text6 {
+  letter-spacing: -3.83px;
+  display: inline-block;
+  min-width: 92px;
+}
+.text7 {
+  font-size: var(--text-medium-16-size);
+  letter-spacing: -0.2px;
+  line-height: 22px;
+  font-family: var(--text-small-normal);
+  color: var(--fozanova-black);
+  white-space: nowrap;
+}
+.statsWrapper2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.statsMainWrapper {
+  width: 931px;
+  border-radius: var(--br-base);
+  background-color: var(--fozanova-white);
+  border: 1px solid var(--color-ghostwhite-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-sm) var(--padding-29xl);
+  gap: var(--gap-xl);
+  max-width: 100%;
+  font-size: var(--font-size-33xl);
+  color: var(--fozanova-gold);
+}
+.heroSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-53xl);
+  color: var(--fozanova-black);
+  font-family: var(--fozanova-h3);
+}
+@media screen and (max-width: 1000px) {
+  .text {
+    font-size: var(--font-size-39xl);
+    line-height: 69px;
+  }
+  .text2,
+  .text4,
+  .text6 {
+    font-size: var(--font-size-23xl);
+  }
+}
+@media screen and (max-width: 725px) {
+  .statsMainWrapper {
+    flex-wrap: wrap;
+    padding-left: var(--padding-5xl);
+    padding-right: var(--padding-5xl);
+    box-sizing: border-box;
+  }
+  .heroSection {
+    gap: var(--gap-xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .text {
+    font-size: var(--font-size-24xl);
+    line-height: 52px;
+  }
+  .text2,
+  .text4,
+  .text6 {
+    font-size: var(--font-size-12xl);
+  }
+}
