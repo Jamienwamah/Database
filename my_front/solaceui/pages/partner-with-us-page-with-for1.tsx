@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import FrameComponent1 from "../components/testimonial";
 import FrameComponent from "../components/frame-component";
 import FrameComponent2 from "../components/partnership";
-import NewFooter1 from "../components/new-footer1";
+import NewFooter1 from "../components/footer";
 import styles from "./partner-with-us-page-with-for1.module.css";
 
 const PartnerWithUsPageWithFor1: NextPage = () => {

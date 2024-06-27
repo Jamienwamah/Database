@@ -4,7 +4,7 @@ import FrameComponent1 from "../components/perks";
 import FrameComponent from "../components/careers";
 import FrameComponent2 from "../components/servicing-africa";
 import FrameComponent3 from "../components/join";
-import NewFooter from "../components/new-footer";
+import NewFooter from "../components/footer";
 import joinNewsletter from "../helpers/newsletter";
 import styles from "./career-page.module.css";
 import FarewellPageWithForm1 from "./farewell-page-with-form1";

@@ -39,14 +39,7 @@ const EachPerk: NextPage<EachPerkType> = ({
       <div className={styles.question}>
         <div className={styles.text}>{text}</div>
       </div>
-      <svg
-        className={styles.lineIcon}
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-      >
-        <use href="/line2.svg#Layer_1" />
-      </svg>
-
+      <img className={styles.lineIcon} loading="lazy" alt="" src="/line2.svg" />
       <p className={styles.text1} style={text1Style}>
         {text1}
       </p>

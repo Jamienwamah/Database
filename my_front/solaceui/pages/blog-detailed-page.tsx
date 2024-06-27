@@ -5,7 +5,7 @@ import Main from "../components/main";
 import FrameComponent4 from "../components/subscribe";
 import MarketButton1 from "../components/market-button1";
 import MarketButton from "../components/market-button";
-import NewFooter from "../components/new-footer";
+import NewFooter from "../components/footer";
 import styles from "./blog-detailed-page.module.css";
 
 const BlogDetailedPage: NextPage = () => {

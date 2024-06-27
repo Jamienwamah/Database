@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import NewFooter from "../components/new-footer";
+import NewFooter from "../components/footer";
 import styles from "./lace-a-i-page.module.css";
 import FrameComponent2 from "../components/coming-soon";
 import FrameComponent1 from "../components/forms/laceaiform";

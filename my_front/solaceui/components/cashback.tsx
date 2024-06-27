@@ -60,43 +60,45 @@ const FrameComponent3: NextPage<FrameComponent3Type> = ({
               />
             </div>
             <nav className={styles.navlinksCollection}>
-              <a className={styles.navlinks} onClick={onNavlinksTextClick}>
+              <a className={styles.navlinks} href="/about-us">
                 About
               </a>
-              <a className={styles.navlinks1} onClick={onNavlinksText1Click}>
+              <a className={styles.navlinks} href="/cover">
                 Cover
               </a>
-              <a className={styles.navlinks2} onClick={onNavlinksText2Click}>
+              <a className={styles.navlinks} href="/lace-a-i">
                 Lace AI
               </a>
-              <a className={styles.navlinks3} onClick={onNavlinksText3Click}>
+              <a className={styles.navlinks} href="/career">
                 Career
               </a>
-              <a className={styles.navlinks4} onClick={onNavlinksText4Click}>
+              <a className={styles.navlinks} href="/f-a-q">
                 FAQ
               </a>
-              <a className={styles.navlinks5} onClick={onNavlinksText5Click}>
+              <a className={styles.navlinks} href="/blog">
                 Blog
               </a>
             </nav>
             <button
               className={styles.navButtonWrapper}
-              style={navButtonWrapperStyle}
               onClick={onNavButtonWrapperClick}
             >
-              <a className={styles.navButtonText}>Join Solace Health Club</a>
+              <a className={styles.navlinks} href="/Join Healthy Elders Club">Join Healthy Elders Club</a>
             </button>
           </div>
         </header>
         <div className={styles.heroHeadingWrapper}>
           <h1 className={styles.text}>
             {" "}
-            Solace Health Club gives the elderly special privileges and benefits
+            Healthy Elders Club gives the elderly special privileges and benefits
             for their comfort.
           </h1>
           <p className={styles.text1}>
             <span className={styles.joiningTheClubYourselfOrR}>
-              <span>{`Joining the Club yourself or registering your elderly as a beneficiary of SHC is easy; pay a monthly membership fee of ₦1,000. Afterwards, a prestigious membership card will be delivered to your doorstep within a few days. This card unlocks exclusive benefits at partner pharmacies, hospitals and laboratories nationwide, including priority services, `}</span>
+              <span>{`Joining the Club yourself or registering your elderly as a beneficiary of HEC is easy; 
+              pay a monthly membership fee of ₦1,000. Afterwards, a prestigious membership card will be delivered to 
+              your doorstep within a few days. This card unlocks exclusive benefits at partner pharmacies, hospitals and
+              laboratories nationwide, including priority services, `}</span>
             </span>
             <span className={styles.cashbackOnMedicalExpensesA}>
               <span>

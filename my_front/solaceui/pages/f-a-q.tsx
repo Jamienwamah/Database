@@ -3,7 +3,7 @@ import Content from "../components/content";
 import FrameComponent from "../components/frame-component";
 import FrameComponent2 from "../components/frequent-asked-question";
 import Main from "../components/main";
-import NewFooter from "../components/new-footer";
+import NewFooter from "../components/footer";
 import styles from "./f-a-q-page.module.css";
 
 type FarewellPageWithForm1Props = {

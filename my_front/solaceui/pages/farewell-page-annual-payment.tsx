@@ -5,7 +5,7 @@ import FrameComponent from "../components/frame-component";
 import PlanSelector1 from "../components/plan-selector1";
 import MarketButton1 from "../components/market-button1";
 import MarketButton from "../components/market-button";
-import NewFooter from "../components/new-footer";
+import NewFooter from "../components/footer";
 import styles from "./farewell-page-annual-payment.module.css";
 
 const FarewellPageAnnualPayment: NextPage = () => {

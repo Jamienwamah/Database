@@ -19,10 +19,12 @@ const HeroSection: NextPage<HeroSectionType> = ({ className = "" }) => {
           <span>
             <span
               className={styles.solaceIsA}
-            >{`Solace is a healthcare app for the 14.8 million older adults aged 60 and above in Nigeria. Solace Health Club offers elderly members `}</span>
+            >{`Solace is a healthcare app for the 14.8 million older adults aged 60 and above in Nigeria. 
+            Solace Health Club offers elderly members `}</span>
             <span
               className={styles.upTo25}
-            >{`up to 25% cashback on medical expenses yearly. Solace Farewell Cover provides subscribers with a dignified farewell for `}</span>
+            >{`up to 25% cashback on medical expenses yearly. Solace Farewell Cover provides 
+            subscribers with a dignified farewell for `}</span>
             <span className={styles.theirLovedOnes}>
               their loved ones in the event of their passing, offering a service
               benefit of up to ₦8 million.

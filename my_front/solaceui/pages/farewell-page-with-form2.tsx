@@ -3,7 +3,7 @@ import { useCallback } from "react";
 import { useRouter } from "next/router";
 import FrameComponent from "../components/frame-component";
 import FrameComponent2 from "../components/partnership";
-import NewFooter from "../components/new-footer";
+import NewFooter from "../components/footer";
 import styles from "./farewell-page-with-form2.module.css";
 
 const FarewellPageWithForm2: NextPage = () => {

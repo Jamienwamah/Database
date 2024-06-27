@@ -1,0 +1,789 @@
+.icons24pxdropdown,
+.icons24pxdropdown1,
+.icons24pxdropdown2,
+.icons24pxdropdown3,
+.icons24pxdropdown4 {
+  width: 23.2px;
+  height: 23.2px;
+  position: relative;
+  display: none;
+}
+.icons24pxdropdown5,
+.icons24pxdropdown6,
+.icons24pxdropdown7 {
+  width: 23.2px;
+  height: 28px;
+  position: relative;
+  display: none;
+}
+.icons24pxdropdown6,
+.icons24pxdropdown7 {
+  height: 11.7px;
+}
+.icons24pxdropdown7 {
+  height: 23.2px;
+}
+.personalDetailsOf {
+  position: relative;
+  letter-spacing: -0.96px;
+  font-weight: 500;
+}
+.componentsdivider {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-black);
+  display: none;
+  mix-blend-mode: normal;
+}
+.variousdivider {
+  width: 636px;
+  height: 1px;
+  position: relative;
+  background-color: var(--color-black);
+  max-width: 100%;
+}
+.label {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  mix-blend-mode: normal;
+  min-width: 110px;
+}
+.placeholder {
+  position: relative;
+  font-size: var(--body-text-web-size);
+  line-height: 19.37px;
+  color: var(--inactive-text);
+}
+.componentsdivider1 {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-black);
+  mix-blend-mode: normal;
+}
+.nameInput,
+.variousdivider1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.variousdivider1 {
+  flex-direction: row;
+  opacity: 0.1;
+}
+.nameInput {
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.label1 {
+  position: relative;
+  line-height: 16px;
+  mix-blend-mode: normal;
+}
+.placeholder1 {
+  position: relative;
+  font-size: var(--body-text-web-size);
+  line-height: 20px;
+  color: var(--inactive-text);
+}
+.componentsdivider2 {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-black);
+  mix-blend-mode: normal;
+}
+.emailFields,
+.variousdivider2 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.variousdivider2 {
+  flex-direction: row;
+  opacity: 0.1;
+}
+.emailFields {
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.label2 {
+  position: relative;
+  line-height: 15.49px;
+  display: inline-block;
+  mix-blend-mode: normal;
+  min-width: 86px;
+}
+.placeholder2 {
+  position: relative;
+  font-size: var(--body-text-web-size);
+  line-height: 19.37px;
+  color: var(--inactive-text);
+}
+.componentsdivider3 {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-black);
+  mix-blend-mode: normal;
+}
+.nameFields,
+.phoneFields,
+.variousdivider3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.variousdivider3 {
+  align-self: stretch;
+  flex-direction: row;
+  opacity: 0.1;
+}
+.nameFields,
+.phoneFields {
+  flex-direction: column;
+}
+.phoneFields {
+  align-self: stretch;
+  gap: var(--gap-3xs);
+}
+.nameFields {
+  flex: 1;
+  gap: var(--gap-lg-6);
+  min-width: 198px;
+}
+.label3 {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  mix-blend-mode: normal;
+  min-width: 108px;
+}
+.placeholder3 {
+  position: relative;
+  font-size: var(--body-text-web-size);
+  line-height: 19.37px;
+  color: var(--inactive-text);
+}
+.componentsdivider4 {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-black);
+  mix-blend-mode: normal;
+}
+.labelParent,
+.variousdivider4 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.variousdivider4 {
+  flex-direction: row;
+  opacity: 0.1;
+}
+.labelParent {
+  flex-direction: column;
+  gap: var(--gap-3xs);
+}
+.label4,
+.placeholder4 {
+  position: relative;
+  display: inline-block;
+}
+.label4 {
+  line-height: 16px;
+  mix-blend-mode: normal;
+  min-width: 100px;
+}
+.placeholder4 {
+  line-height: 20px;
+  min-width: 42px;
+  white-space: nowrap;
+}
+.heroiconsOutlinechevronDown {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dropdownIcon,
+.placeholderParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dropdownIcon {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.placeholderParent {
+  flex-direction: row;
+  gap: var(--gap-9xs);
+}
+.placeholder5 {
+  position: relative;
+  line-height: 20px;
+  color: var(--inactive-text);
+}
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+  font-size: var(--body-text-web-size);
+  color: var(--fozanova-black);
+}
+.componentsdivider5 {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-black);
+  mix-blend-mode: normal;
+}
+.labelGroup,
+.variousdivider5 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.variousdivider5 {
+  flex-direction: row;
+  opacity: 0.1;
+}
+.labelGroup {
+  flex-direction: column;
+  gap: var(--gap-3xs-9);
+}
+.label5 {
+  position: relative;
+  line-height: 16px;
+  mix-blend-mode: normal;
+}
+.placeholder6 {
+  position: relative;
+  line-height: 20px;
+}
+.heroiconsOutlinechevronDown1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.placeholderGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.componentsdivider6 {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-black);
+  mix-blend-mode: normal;
+}
+.variousdivider6 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  opacity: 0.1;
+}
+.frameGroup,
+.labelContainer {
+  align-self: stretch;
+  flex-direction: column;
+}
+.frameGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs-2);
+  font-size: var(--body-text-web-size);
+  color: var(--inactive-text);
+}
+.labelContainer {
+  gap: var(--gap-3xs-8);
+}
+.inputRow,
+.labelContainer,
+.nameFields1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nameFields1 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-lg-6);
+  min-width: 198px;
+}
+.inputRow {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-9xl);
+}
+.label6 {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  mix-blend-mode: normal;
+  min-width: 103px;
+}
+.strengthIndicator {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+}
+.placeholder7 {
+  width: 172px;
+  position: relative;
+  line-height: 20px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+}
+.heroiconsOutlineeyeSlash {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.inputFields1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.componentsdivider7 {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  background-color: var(--fozanova-black);
+  mix-blend-mode: normal;
+}
+.dropdownIcon1,
+.inputWrapper,
+.variousdivider7 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.variousdivider7 {
+  flex: 1;
+  flex-direction: row;
+  opacity: 0.1;
+}
+.dropdownIcon1,
+.inputWrapper {
+  align-self: stretch;
+}
+.dropdownIcon1 {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+}
+.inputWrapper {
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.mustContainAt {
+  position: relative;
+  line-height: 16px;
+  color: var(--dark-gray);
+  display: inline-block;
+  min-width: 118px;
+}
+.heroiconsOutlinecheck {
+  margin: 0;
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.alpanumericCharacters {
+  position: relative;
+  line-height: 16px;
+}
+.characterCheck {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.heroiconsOutlinecheck1 {
+  margin: 0;
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.upperCaseCharacter {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 128px;
+}
+.characterCheck1,
+.strengthCriteria {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.strengthCriteria {
+  flex: 1;
+  flex-direction: column;
+  min-width: 105px;
+}
+.passwordsStrength {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 113px;
+}
+.strengthBar {
+  width: 105.5px;
+  height: 4px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  background-color: var(--faint-gray);
+}
+.levelWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.excellent {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 53px;
+}
+.strengthLevel,
+.strengthMeter {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.strengthLevel {
+  flex-direction: column;
+  gap: var(--gap-9xs);
+  color: var(--dark-gray);
+}
+.strengthMeter {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-6xl);
+}
+.heroiconsOutlinecheck2 {
+  margin: 0;
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.specialCharacter {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 105px;
+}
+.specialCheck {
+  flex-direction: row;
+  gap: var(--gap-9xs);
+}
+.inputContainer,
+.passwordDivider,
+.specialCheck,
+.strengthWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.strengthWrapper {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.inputContainer,
+.passwordDivider {
+  align-self: stretch;
+}
+.passwordDivider {
+  flex-direction: row;
+  padding: 0 var(--padding-8xs) 0 var(--padding-12xs);
+  font-size: var(--text-small-normal-size);
+  color: var(--light-gray);
+}
+.inputContainer {
+  flex-direction: column;
+  gap: var(--gap-11xs);
+  font-size: var(--text-medium-16-size);
+  color: var(--inactive-text);
+}
+.componentsdivider8 {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-black);
+  mix-blend-mode: normal;
+}
+.variousdivider8,
+.variousdividerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.variousdivider8 {
+  flex: 1;
+  opacity: 0.1;
+}
+.variousdividerWrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-11xs) 0 var(--padding-12xs);
+}
+.passwordContainer,
+.placeholderWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.passwordContainer {
+  align-self: stretch;
+  gap: var(--gap-4xs-5);
+}
+.placeholderWrapper {
+  flex: 1;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  min-width: 198px;
+}
+.label7 {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  mix-blend-mode: normal;
+  min-width: 108px;
+}
+.placeholder8 {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  font-weight: 300;
+}
+.passwordDivider1 {
+  width: 172px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.heroiconsOutlineeyeSlash1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 24px;
+}
+.confirmInput {
+  width: 306px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--text-medium-16-size);
+  color: var(--inactive-text);
+}
+.componentsdivider9 {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  background-color: var(--fozanova-black);
+  mix-blend-mode: normal;
+}
+.variousdivider9 {
+  align-self: stretch;
+  flex-direction: row;
+  opacity: 0.1;
+}
+.confirmFields,
+.passwordInput,
+.passwordWrapper,
+.variousdivider9 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.confirmFields {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xs-5);
+  min-width: 205px;
+}
+.passwordInput,
+.passwordWrapper {
+  flex-direction: row;
+  max-width: 100%;
+}
+.passwordWrapper {
+  flex: 1;
+  flex-wrap: wrap;
+  gap: var(--gap-7xl);
+}
+.passwordInput {
+  align-self: stretch;
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  font-size: var(--text-small-normal-size);
+  color: var(--color-gray-500);
+}
+.inputFields,
+.variousdividerParent {
+  align-self: stretch;
+  flex-direction: column;
+}
+.inputFields {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg-8);
+  max-width: 100%;
+}
+.variousdividerParent {
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-400);
+}
+.detailsWrapper,
+.passwordFields,
+.variousdividerParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.detailsWrapper {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-22xl);
+}
+.passwordFields {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.submitApplication {
+  position: relative;
+  font-size: var(--body-text-web-size);
+  line-height: 26px;
+  font-weight: 600;
+  font-family: var(--text-small-normal);
+  color: var(--fozanova-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 39px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-xl);
+  background-color: var(--inactive-gold);
+  align-self: stretch;
+  border-radius: var(--br-13xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.button:hover {
+  background-color: var(--color-tan);
+}
+.subscriptionFormPersonalDe,
+.subscriptionFormPersonalDeWrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.subscriptionFormPersonalDe {
+  width: 714px;
+  border-radius: var(--br-base);
+  background-color: var(--fozanova-white);
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-9xl) var(--padding-12xl)
+    var(--padding-18xl);
+  gap: var(--gap-37xl);
+}
+.subscriptionFormPersonalDeWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--fozanova-black);
+  font-family: var(--text-small-normal);
+}
+@media screen and (max-width: 725px) {
+  .detailsWrapper {
+    gap: var(--gap-xl);
+  }
+  .subscriptionFormPersonalDe {
+    gap: var(--gap-9xl);
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .personalDetailsOf {
+    font-size: var(--text-medium-16-size);
+  }
+  .strengthMeter {
+    flex-wrap: wrap;
+  }
+}

@@ -31,7 +31,9 @@ const FrameComponent2: NextPage<FrameComponent2Type> = ({ className = "" }) => {
             <p className={styles.text1}>
               <span
                 className={styles.itWillIntegrate}
-              >{`It will integrate wearable health sensors that monitor vital signs, utilizing proprietary AI algorithms to analyze health data, identify trends and trigger alerts for potential health issues. Lace AI would enable timely medical `}</span>
+              >{`It will integrate wearable health sensors that monitor vital signs, 
+              utilizing proprietary AI algorithms to analyze health data, identify trends and trigger alerts 
+              for potential health issues. Lace AI would enable timely medical `}</span>
               <span className={styles.interventionsAndImprove}>
                 interventions and improve chronic disease management in Africa.
               </span>

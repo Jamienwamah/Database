@@ -51,7 +51,7 @@
   height: 406px;
   flex: 1;
   position: relative;
-  max-width: 100%;
+  max-width: 120%;
   overflow: hidden;
   object-fit: contain;
   min-width: 365px;
@@ -60,7 +60,7 @@
 .storySection,
 .storySectionWrapper {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   max-width: 100%;
 }
 .frameParent {

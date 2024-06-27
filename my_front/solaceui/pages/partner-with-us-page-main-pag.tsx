@@ -1,137 +1,86 @@
-import type { NextPage } from "next";
-import { useCallback } from "react";
+import { NextPage } from "next";
+import { useCallback, useState } from "react";
 import { useRouter } from "next/router";
-import FrameComponent1 from "../components/testimonial";
-import FrameComponent from "../components/frame-component";
-import MarketButton1 from "../components/market-button1";
-import MarketButton from "../components/market-button";
-import NewFooter from "../components/new-footer";
+import PartnerContent from "../components/partner-content";
+import GroupComponent from "../components/group-component";
+import NewFooter from "../components/footer";
 import styles from "./partner-with-us-page-main-pag.module.css";
+import FrameComponent from "../components/frame-component";
 
-const PartnerWithUsPageMainPag: NextPage = () => {
+const JoinCaregiversPageMainPag: NextPage = () => {
   const router = useRouter();
 
-  const onSolaceLogoContainerClick = useCallback(() => {
-    router.push("/");
+  const navigateTo = useCallback((path: string) => {
+    router.push(path);
   }, [router]);
 
-  const onNavlinksTextClick = useCallback(() => {
-    router.push("/about-us-page");
-  }, [router]);
+  const [email, setEmail] = useState('');
 
-  const onNavlinksText1Click = useCallback(() => {
-    router.push("/farewell-page-quarterly-payme");
-  }, [router]);
-
-  const onNavlinksText2Click = useCallback(() => {
-    router.push("/lace-a-i-page");
-  }, [router]);
-
-  const onNavlinksText3Click = useCallback(() => {
-    router.push("/career-page");
-  }, [router]);
-
-  const onNavlinksText4Click = useCallback(() => {
-    router.push("/f-a-q-page");
-  }, [router]);
-
-  const onNavlinksText5Click = useCallback(() => {
-    router.push("/blog-page");
-  }, [router]);
-
-  const onNavButtonWrapperClick = useCallback(() => {
-    router.push("/solace-health-club");
-  }, [router]);
-
-  const onText13Click = useCallback(() => {
-    router.push("/partner-with-us-page-with-for2");
-  }, [router]);
-
-  const onText14Click = useCallback(() => {
-    router.push("/partner-with-us-page-with-for");
-  }, [router]);
-
-  const onText15Click = useCallback(() => {
-    router.push("/partner-with-us-page-with-for1");
-  }, [router]);
-
-  const onFrameContainerClick = useCallback(() => {
-    router.push("/about-us-page");
-  }, [router]);
-
-  const onFrameContainer2Click = useCallback(() => {
-    router.push("/lace-a-i-page");
-  }, [router]);
-
-  const onFrameContainer3Click = useCallback(() => {
-    router.push("/career-page");
-  }, [router]);
-
-  const onFrameContainer4Click = useCallback(() => {
-    router.push("/f-a-q-page");
-  }, [router]);
-
-  const onFrameContainer5Click = useCallback(() => {
-    router.push("/blog-page");
-  }, [router]);
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    // handle submit logic, such as form submission
+    console.log('Form submitted with email:', email);
+  };
 
   return (
-    <div className={styles.partnerWithUsPageMainPag}>
-      {/* <FrameComponent1
-        onSolaceLogoContainerClick={onSolaceLogoContainerClick}
-        onNavlinksTextClick={onNavlinksTextClick}
-        onNavlinksText1Click={onNavlinksText1Click}
-        onNavlinksText2Click={onNavlinksText2Click}
-        onNavlinksText3Click={onNavlinksText3Click}
-        onNavlinksText4Click={onNavlinksText4Click}
-        onNavlinksText5Click={onNavlinksText5Click}
-        onNavButtonWrapperClick={onNavButtonWrapperClick}
-      /> */}
-      {/* <FrameComponent
-        onText13Click={onText13Click}
-        onText14Click={onText14Click}
-        onText15Click={onText15Click}
-      /> */}
-      <section className={styles.ctaSectionWrapper}>
-        <div className={styles.ctaSection}>
-          <div className={styles.iconFrameWrapper}>
-            <img
-              className={styles.iconFrame}
-              loading="lazy"
-              alt=""
-              src="/icon-frame.svg"
+    <div className={styles.joinCaregiversPageMainPag}>
+      <PartnerContent
+        onSolaceLogoContainerClick={() => navigateTo("/")}
+        onNavlinksTextClick={() => navigateTo("/about-us-page")}
+        onNavlinksText1Click={() => navigateTo("/farewell-page-quarterly-payme")}
+        onNavlinksText2Click={() => navigateTo("/lace-a-i-page")}
+        onNavlinksText3Click={() => navigateTo("/career-page")}
+        onNavlinksText4Click={() => navigateTo("/f-a-q-page")}
+        onNavlinksText5Click={() => navigateTo("/blog-page")}
+        onNavButtonWrapperClick={() => navigateTo("/solace-health-club")}
+      />
+      <section className={styles.targetAudience}>
+        <div className={styles.targetAudienceCategories}>
+          <div className={styles.audienceWrapper}>
+          <GroupComponent
+              group48096821="/Pharmacy.svg"
+              infoTitle="Pharmacies"
+              propMinWidth="117px"
+              propGap="20px"
+              propFlex="unset"
+              propPadding="0px var(--padding-31xl)"
+              propWidth="31px"
+              propPadding1="0px var(--padding-lgi) 0px var(--padding-mid)"
+              onText16Click={() => navigateTo("/pharmacy-form")}
             />
-          </div>
-          <div className={styles.textParent}>
-            <h1 className={styles.text}>Lets take stress off you!</h1>
-            <div className={styles.textWrapper}>
-              <p className={styles.text1}>
-                Stay in the loop with updates from our team and community. Once
-                a week.
-              </p>
-            </div>
-          </div>
-          <div className={styles.inputWrapper}>
-            <div className={styles.input}>
-              <div className={styles.textContainer}>
-                <div className={styles.text2}>Enter your email</div>
+            <GroupComponent
+              group48096821="/Hospital.svg"
+              infoTitle="Hospital & Clinics"
+              onText16Click={() => navigateTo("/hospital-form")}
+            />
+            
+            <div className={styles.eachContactInfoWrapper}>
+              <div className={styles.infoWrapper}>
+                <img
+                  className={styles.infoWrapperChild}
+                  loading="lazy"
+                  alt=""
+                  src="/Laboratory.svg"
+                />
               </div>
-              <button className={styles.input1}>
-                <div className={styles.text3}>Subscribe to our newsletter</div>
-              </button>
-            </div>
-          </div>
-          <div className={styles.downloadButtonsWrapper}>
-            <div className={styles.downloadButtons}>
-              <MarketButton1 />
-              <MarketButton />
+              <div className={styles.infoTitle}>Laboratories</div>
+              <div className={styles.infoDetailWrapper}>
+                <div className={styles.infoDetail} onClick={() => navigateTo("/laboratory-form")}>
+                  Register Here
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
+      <FrameComponent
+        email={email}
+        setEmail={setEmail}
+        handleSubmit={handleSubmit}
+      />
       <NewFooter />
     </div>
   );
 };
 
-export default PartnerWithUsPageMainPag;
+export default JoinCaregiversPageMainPag;

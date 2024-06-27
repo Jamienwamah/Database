@@ -20,8 +20,8 @@
 .isSolaceARegisteredCompanyParent {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   max-width: 100%;
 }
 .isSolaceARegisteredCompanyParent {
@@ -55,8 +55,8 @@
 .explanation {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   padding: 0 var(--padding-7xs) 0 var(--padding-xl);
   max-width: 100%;
   font-size: var(--body-text-web-size);
@@ -89,8 +89,8 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   padding: 0 0 var(--padding-7xl) var(--padding-xl);
   gap: var(--gap-36xl-9);
   max-width: 100%;
@@ -118,8 +118,8 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   padding: 0 0 var(--padding-7xl) var(--padding-xl);
   gap: var(--gap-36xl-9);
   max-width: 100%;
@@ -145,8 +145,8 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   padding: 0 0 var(--padding-7xl) var(--padding-xl);
   gap: var(--gap-36xl-9);
   max-width: 100%;
@@ -172,8 +172,8 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   padding: 0 0 var(--padding-7xl) var(--padding-xl);
   gap: var(--gap-36xl-9);
   max-width: 100%;
@@ -199,8 +199,8 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   padding: 0 0 var(--padding-7xl) var(--padding-xl);
   gap: var(--gap-36xl-9);
   max-width: 100%;
@@ -226,8 +226,8 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   padding: 0 0 var(--padding-7xl) var(--padding-xl);
   gap: var(--gap-36xl-9);
   max-width: 100%;
@@ -253,8 +253,8 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   padding: 0 0 var(--padding-7xl) var(--padding-xl);
   gap: var(--gap-36xl-9);
   max-width: 100%;
@@ -280,8 +280,8 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   padding: 0 0 var(--padding-7xl) var(--padding-xl);
   gap: var(--gap-36xl-9);
   max-width: 100%;
@@ -304,8 +304,8 @@
 .answerParent,
 .item8 {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 .item8 {
   align-self: stretch;
@@ -341,8 +341,8 @@
 .item9 {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   max-width: 100%;
 }
 .heading5 {
@@ -376,8 +376,8 @@
 .item10 {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   max-width: 100%;
 }
 .heading51 {
@@ -410,8 +410,8 @@
 .item11 {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   max-width: 100%;
 }
 .heading52 {
@@ -444,8 +444,8 @@
 .item12 {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   max-width: 100%;
 }
 .heading53 {
@@ -478,8 +478,8 @@
 .item13 {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   max-width: 100%;
 }
 .heading54 {
@@ -512,8 +512,8 @@
 .item14 {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   max-width: 100%;
 }
 .heading55 {
@@ -546,8 +546,8 @@
 .item15 {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   max-width: 100%;
 }
 .heading56 {
@@ -580,8 +580,8 @@
 .item16 {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   max-width: 100%;
 }
 .heading57 {
@@ -614,8 +614,8 @@
 .item17 {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   max-width: 100%;
 }
 .heading58 {
@@ -648,8 +648,8 @@
 .item18,
 .itemParent {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 .heading59 {
   flex: 1;
@@ -678,8 +678,8 @@
 .frequentlyAskedQuestionsWrapper {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   box-sizing: border-box;
   max-width: 100%;
 }

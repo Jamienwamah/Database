@@ -11,7 +11,7 @@ const FrameComponent6: NextPage<FrameComponent6Type> = ({ className = "" }) => {
   const router = useRouter();
 
   const onBottomLeftContentWrapperClick = useCallback(() => {
-    router.push("/about-us-page");
+    router.push("/about-us");
   }, [router]);
 
   return (

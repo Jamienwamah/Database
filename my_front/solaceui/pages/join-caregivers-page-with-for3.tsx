@@ -1,11 +1,11 @@
 import type { NextPage } from "next";
 import { useCallback } from "react";
 import { useRouter } from "next/router";
-import FrameComponent3 from "../components/solacecaregiver";
+import FrameComponent3 from "../components/joinsolacecaregiver";
 import FrameComponent2 from "../components/partnership";
 import FrameComponent1 from "../components/testimonial";
 import FrameComponent from "../components/frame-component";
-import NewFooter from "../components/new-footer";
+import NewFooter from "../components/footer";
 import styles from "./join-caregivers-page-with-for3.module.css";
 
 const JoinCaregiversPageWithFor: NextPage = () => {
@@ -45,7 +45,7 @@ const JoinCaregiversPageWithFor: NextPage = () => {
 
   return (
     <div className={styles.joinCaregiversPageWithFor}>
-      {/* <FrameComponent3
+      {/* { <FrameComponent3
         onSolaceLogoContainerClick={onSolaceLogoContainerClick}
         onNavlinksTextClick={onNavlinksTextClick}
         onNavlinksText1Click={onNavlinksText1Click}
@@ -54,7 +54,7 @@ const JoinCaregiversPageWithFor: NextPage = () => {
         onNavlinksText4Click={onNavlinksText4Click}
         onNavlinksText5Click={onNavlinksText5Click}
         onNavButtonWrapperClick={onNavButtonWrapperClick}
-      /> */}
+      /> } */}
       <FrameComponent2 />
       <FrameComponent1 />
       {/* <FrameComponent /> */}

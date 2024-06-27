@@ -30,11 +30,8 @@ const MainContent: NextPage<MainContentType> = ({
     <section className={[styles.mainContent, className].join(" ")}>
       <div className={styles.headerSection}>
         <header className={styles.navigationDesktop}>
-          <div className={styles.navigationWrapper}>
-            <div
-              className={styles.solaceLogo}
-              onClick={onSolaceLogoContainerClick}
-            >
+        <div className={styles.navigationWrapper}>
+        <a href="/" className={styles.solaceLogo}>
               <img
                 className={styles.solaceLogoChild}
                 loading="lazy"
@@ -49,22 +46,22 @@ const MainContent: NextPage<MainContentType> = ({
               />
             </div>
             <nav className={styles.navlinksCollection}>
-              <a className={styles.navlinks} onClick={onNavlinksTextClick}>
+              <a className={styles.navlinks} href="/about-us">
                 About
               </a>
-              <a className={styles.navlinks1} onClick={onNavlinksText1Click}>
+              <a className={styles.navlinks} href="/cover">
                 Cover
               </a>
-              <a className={styles.navlinks2} onClick={onNavlinksText2Click}>
+              <a className={styles.navlinks} href="/lace-a-i">
                 Lace AI
               </a>
-              <a className={styles.navlinks3} onClick={onNavlinksText3Click}>
+              <a className={styles.navlinks} href="/career">
                 Career
               </a>
-              <a className={styles.navlinks4} onClick={onNavlinksText4Click}>
+              <a className={styles.navlinks} href="/f-a-q">
                 FAQ
               </a>
-              <a className={styles.navlinks5} onClick={onNavlinksText5Click}>
+              <a className={styles.navlinks} href="/blog">
                 Blog
               </a>
             </nav>
@@ -72,7 +69,7 @@ const MainContent: NextPage<MainContentType> = ({
               className={styles.navButtonWrapper}
               onClick={onNavButtonWrapperClick}
             >
-              <a className={styles.navButtonText}>Join Solace Health Club</a>
+             <a className={styles.navlinks} href="/solace-health-club">Join Healthy Elders Club</a>
             </button>
           </div>
         </header>
@@ -92,8 +89,8 @@ const MainContent: NextPage<MainContentType> = ({
             </span>
           </p>
         </div>
-      </div>
-    </section>
+      </div >
+    </section >
   );
 };
 

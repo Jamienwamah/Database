@@ -88,12 +88,13 @@ const GroupComponent: NextPage<GroupComponentType> = ({
         </div>
       </div>
       <div className={styles.lineWrapper}>
-        <img
+        <svg
           className={styles.lineIcon}
-          loading="lazy"
-          alt=""
-          src="/line3.svg"
-        />
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+        >
+          <use href="/line3.svg#Layer_1" />
+        </svg>
       </div>
     </div>
   );

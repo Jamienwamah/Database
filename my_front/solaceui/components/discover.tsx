@@ -10,15 +10,21 @@ export type FrameComponent2Type = {
 const FrameComponent2: NextPage<FrameComponent2Type> = ({ className = "" }) => {
   const router = useRouter();
 
-  const onButtonClick = useCallback(() => {
-    router.push("/solace-health-club1");
+  const navigateTo = useCallback((path: string) => {
+    router.push(path);
   }, [router]);
+
+  const onText16Click = () => navigateTo("./forms/personal_solace_user");
+
+  const onButtonClick = () => {
+    // Add your button click logic here
+  };
 
   return (
     <section className={[styles.solaceHealthClubInner, className].join(" ")}>
       <div className={styles.textParent}>
         <h1 className={styles.text}>
-          Discover why you or your elderly loved ones should join Solace Health
+          Discover why you or your elderly loved ones should join Healthy Elders
           Club now.
         </h1>
         <div className={styles.solaceShc}>
@@ -41,7 +47,7 @@ const FrameComponent2: NextPage<FrameComponent2Type> = ({ className = "" }) => {
                           src="/group-48096815-1.svg"
                         />
                         <div className={styles.cardTypeWrapper}>
-                          <div className={styles.cardType}>SHC</div>
+                          <div className={styles.cardType}>HEC</div>
                         </div>
                       </div>
                     </div>
@@ -142,9 +148,9 @@ const FrameComponent2: NextPage<FrameComponent2Type> = ({ className = "" }) => {
                   alt=""
                   src="/check-1-traced.svg"
                 />
-                <p
-                  className={styles.text5}
-                >{`Get priority services at partner Pharmacies Hospitals & Labs nationwide, including on partner online medical stores .`}</p>
+                <p className={styles.text5}>
+                  Get priority services at partner Pharmacies Hospitals & Labs nationwide, including on partner online medical stores.
+                </p>
               </div>
               <div className={styles.eachAdditionalFeature3}>
                 <img
@@ -175,14 +181,14 @@ const FrameComponent2: NextPage<FrameComponent2Type> = ({ className = "" }) => {
                   alt=""
                   src="/check-1-traced.svg"
                 />
-                <p
-                  className={styles.text8}
-                >{`Get free membership card replacement in the case of misplacement or damaged after the first 365 days of issuance. `}</p>
+                <p className={styles.text8}>
+                  Get free membership card replacement in the case of misplacement or damaged after the first 365 days of issuance.
+                </p>
               </div>
             </div>
             <button className={styles.button} onClick={onButtonClick}>
               <div className={styles.submitApplication}>
-                Join Solace Health Club
+                Join Healthy Elders Club
               </div>
             </button>
           </div>

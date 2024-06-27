@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import { useState } from "react";
 import FrameComponent1 from "../components/guide-interviews-stoies";
 import FrameComponent3 from "../components/enjoy-thoughts";
-import NewFooter from "../components/new-footer";
+import NewFooter from "../components/footer";
 import joinNewsletter from "../helpers/newsletter";
 import styles from "./blog-page.module.css";
 import FarewellPageWithForm1 from "./farewell-page-with-form1";

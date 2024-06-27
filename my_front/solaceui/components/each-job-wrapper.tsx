@@ -54,13 +54,12 @@ const EachJobWrapper: NextPage<EachJobWrapperType> = ({
         </p>
       </div>
       <div className={styles.iconWrapperWrapper}>
-        <svg
+        <img
           className={styles.iconWrapper}
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-        >
-          <use href="/icon-wrapper.svg#Layer_1" />
-        </svg>
+          loading="lazy"
+          alt=""
+          src="/icon-wrapper.svg"
+        />
       </div>
     </div>
   );

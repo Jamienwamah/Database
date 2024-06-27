@@ -56,7 +56,7 @@ const Main: NextPage<MainType> = ({ className = "" }) => {
             className={styles.navButtonWrapper}
             onClick={onNavButtonWrapperClick}
           >
-            <a className={styles.navButtonText}>Join Solace Health Club</a>
+            <a className={styles.navButtonText}>Join Healthy Elders Club</a>
           </button>
         </div>
       </div>

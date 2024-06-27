@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import MainContent from "../components/main-content";
 import GroupComponent from "../components/group-component";
 import FrameComponent from "../components/frame-component";
-import NewFooter from "../components/new-footer";
+import NewFooter from "../components/footer";
 import styles from "./join-caregivers-page-with-for.module.css";
 
 const JoinCaregiversPageWithFor: NextPage = () => {

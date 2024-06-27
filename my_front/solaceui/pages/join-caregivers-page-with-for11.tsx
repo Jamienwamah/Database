@@ -1,11 +1,11 @@
 import type { NextPage } from "next";
 import { useCallback } from "react";
 import { useRouter } from "next/router";
-import FrameComponent3 from "../components/solacecaregiver";
+import FrameComponent3 from "../components/joinsolacecaregiver";
 import FrameComponent4 from "../components/subscribe";
 import MarketButton1 from "../components/market-button1";
 import MarketButton from "../components/market-button";
-import NewFooter1 from "../components/new-footer1";
+import NewFooter1 from "../components/footer";
 import styles from "./join-caregivers-page-with-for11.module.css";
 
 const JoinCaregiversPageWithFor1: NextPage = () => {

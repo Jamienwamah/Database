@@ -7,7 +7,9 @@ export type NavigationDesktopType = {
   className?: string;
 };
 
-const Header: NextPage<NavigationDesktopType> = ({ className = "" }) => {
+const Header: NextPage<NavigationDesktopType> = ({
+  className = "",
+}) => {
   const router = useRouter();
 
   const onNavButtonWrapperClick = useCallback(() => {
@@ -18,20 +20,18 @@ const Header: NextPage<NavigationDesktopType> = ({ className = "" }) => {
     <header className={[styles.navigationDesktop, className].join(" ")}>
       <div className={styles.navigationWrapper}>
         <a href="/" className={styles.solaceLogo}>
-          <svg
+          <img
             className={styles.solaceLogoChild}
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-          >
-            <use href="/group-48096814.svg#Layer_1" />
-          </svg>
-          <svg
+            loading="lazy"
+            alt=""
+            src="/group-48096814.svg"
+          />
+          <img
             className={styles.solaceLogoItem}
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-          >
-            <use href="/group-48096815.svg#Layer_1" />
-          </svg>
+            loading="lazy"
+            alt=""
+            src="/group-48096815.svg"
+          />
         </a>
 
         <nav className={styles.navlinksCollection}>
@@ -58,7 +58,7 @@ const Header: NextPage<NavigationDesktopType> = ({ className = "" }) => {
           className={styles.navButtonWrapper}
           onClick={onNavButtonWrapperClick}
         >
-          <span className={styles.navButtonText}>Join Solace Health Club</span>
+          <span className={styles.navButtonText}>Join Healthy Elders Club</span>
         </button>
       </div>
     </header>

@@ -6,7 +6,7 @@ import FrameComponent from "../components/frame-component";
 import Content from "../components/content";
 import MarketButton1 from "../components/market-button1";
 import MarketButton from "../components/market-button";
-import NewFooter from "../components/new-footer";
+import NewFooter from "../components/footer";
 import styles from "./partner-with-us-page-with-for.module.css";
 
 const PartnerWithUsPageWithFor: NextPage = () => {

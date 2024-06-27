@@ -3,15 +3,16 @@ import FeaturesContentWrapper from "../components/features-content-wrapper";
 import FrameComponent from "../components/frame-component";
 import FrameComponent1 from "../components/testimonial";
 import FrameComponent2 from "../components/partnership";
-import FrameComponent3 from "../components/solacecaregiver";
+import FrameComponent3 from "../components/joinsolacecaregiver";
 import FrameComponent4 from "../components/subscribe";
 import FrameComponent5 from "../components/partnership2";
 import FrameComponent6 from "../components/mission";
 import FrameComponent7 from "../components/usp";
 import Header from "../components/header";
 import HeroSection from "../components/hero-section";
-import NewFooter from "../components/new-footer";
+import NewFooter from "../components/footer";
 import styles from "./index.module.css";
+
 
 type FarewellPageWithForm1Props = {
   email: string;

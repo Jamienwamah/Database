@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import { useState } from "react";
 import FrameComponent from "../components/Subscriptions";
-import NewFooter from "../components/new-footer";
+import NewFooter from "../components/footer";
 import joinNewsletter from "../helpers/newsletter";
 import FarewellPageAnnualPayment from "./farewell-page-annual-payment";
 import styles from "./farewell-page-quarterly-payme.module.css";

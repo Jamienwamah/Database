@@ -64,7 +64,7 @@
 .frameGroup {
   width: 800px;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   gap: var(--gap-xl);
 }
 .frameWrapper {
@@ -169,7 +169,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   gap: var(--gap-base);
 }
 .text4 {
@@ -187,7 +187,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   padding: 0 var(--padding-sm) 0 0;
   box-sizing: border-box;
   gap: var(--gap-5xl);
@@ -205,7 +205,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 0 0 var(--padding-lg-5);
   box-sizing: border-box;
 }
@@ -233,7 +233,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   gap: var(--gap-base);
 }
 .text6 {
@@ -251,7 +251,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   gap: var(--gap-5xl);
 }
 .lineIcon1 {
@@ -267,7 +267,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 0 0 var(--padding-lg-5);
   box-sizing: border-box;
 }
@@ -295,7 +295,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   gap: var(--gap-base);
 }
 .text8 {
@@ -313,7 +313,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   gap: var(--gap-5xl);
 }
 .frameContainer {
@@ -420,7 +420,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   gap: var(--gap-base);
 }
 .text10 {
@@ -438,7 +438,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   padding: 0 var(--padding-base) 0 0;
   box-sizing: border-box;
   gap: var(--gap-5xl);
@@ -456,7 +456,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 0 0 var(--padding-lg-5);
   box-sizing: border-box;
 }
@@ -484,7 +484,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  justify-content: flex-start;
+  justify-content: center;
   gap: var(--gap-base);
 }
 .text12 {
@@ -502,7 +502,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   gap: var(--gap-5xl);
 }
 .lineIcon3 {
@@ -518,7 +518,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-end;
+  justify-content: center;
   padding: 0 0 var(--padding-lg-5);
   box-sizing: border-box;
 }
@@ -546,7 +546,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   gap: var(--gap-base);
 }
 .text14 {
@@ -564,7 +564,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: flex-start;
+  justify-content: center;
   gap: var(--gap-5xl);
 }
 .frameParent6 {
@@ -582,7 +582,7 @@
 .frameParent,
 .valuesBottomWrappers {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   max-width: 100%;
 }
 .valuesBottomWrappers {
@@ -593,7 +593,7 @@
   box-sizing: border-box;
   overflow: hidden;
   flex-direction: column;
-  align-items: flex-end;
+  align-items: center;
   padding: var(--padding-70xl) var(--padding-53xl) var(--padding-71xl);
   gap: var(--gap-110xl);
   font-size: var(--fozanova-h3-size);

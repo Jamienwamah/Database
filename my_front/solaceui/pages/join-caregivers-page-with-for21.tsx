@@ -1,9 +1,9 @@
 import type { NextPage } from "next";
 import { useCallback } from "react";
 import { useRouter } from "next/router";
-import FrameComponent3 from "../components/solacecaregiver";
+import FrameComponent3 from "../components/joinsolacecaregiver";
 import FrameComponent5 from "../components/partnership2";
-import NewFooter2 from "../components/new-footer2";
+import NewFooter2 from "../components/footer";
 import styles from "./join-caregivers-page-with-for21.module.css";
 
 const JoinCaregiversPageWithFor2: NextPage = () => {

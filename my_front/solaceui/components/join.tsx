@@ -20,10 +20,12 @@ const FrameComponent3: NextPage<FrameComponent3Type> = ({ className = "" }) => {
             <p className={styles.text1}>
               <span
                 className={styles.lookingForAn}
-              >{`Looking for an opportunity to showcase your skills and bring your creativity to live? Join our global team of talented `}</span>
+              >{`Looking for an opportunity to showcase your skills and 
+              bring your creativity to live? Join our global team of talented `}</span>
               <span
                 className={styles.workforceTodayAnd}
-              >{`workforce today and be part of the team revolutionizing the elderly care industry in Africa. `}</span>
+              >{`workforce today and be part of the team revolutionizing 
+              the elderly care industry in Africa. `}</span>
             </p>
           </div>
         </div>

@@ -55,49 +55,89 @@ const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
             <p className={styles.whatTypeOf}>
               What type of technical expertise does Proxify offer?
             </p>
-            <img className={styles.svgIcon1} alt="" src="/svg.svg" />
+            <img
+              className={styles.svgIcon1}
+              loading="lazy"
+              alt=""
+              src="/svg.svg"
+            />
           </div>
           <div className={styles.item2}>
             <div className={styles.whatTypeOf1}>
               What type of technical expertise does Proxify offer?
             </div>
-            <img className={styles.svgIcon2} alt="" src="/svg.svg" />
+            <img
+              className={styles.svgIcon2}
+              loading="lazy"
+              alt=""
+              src="/svg.svg"
+            />
           </div>
           <div className={styles.item3}>
             <div className={styles.whatTypeOf2}>
               What type of technical expertise does Proxify offer?
             </div>
-            <img className={styles.svgIcon3} alt="" src="/svg.svg" />
+            <img
+              className={styles.svgIcon3}
+              loading="lazy"
+              alt=""
+              src="/svg.svg"
+            />
           </div>
           <div className={styles.item4}>
             <div className={styles.whatTypeOf3}>
               What type of technical expertise does Proxify offer?
             </div>
-            <img className={styles.svgIcon4} alt="" src="/svg.svg" />
+            <img
+              className={styles.svgIcon4}
+              loading="lazy"
+              alt=""
+              src="/svg.svg"
+            />
           </div>
           <div className={styles.item5}>
             <div className={styles.whatTypeOf4}>
               What type of technical expertise does Proxify offer?
             </div>
-            <img className={styles.svgIcon5} alt="" src="/svg.svg" />
+            <img
+              className={styles.svgIcon5}
+              loading="lazy"
+              alt=""
+              src="/svg.svg"
+            />
           </div>
           <div className={styles.item6}>
             <div className={styles.whatTypeOf5}>
               What type of technical expertise does Proxify offer?
             </div>
-            <img className={styles.svgIcon6} alt="" src="/svg.svg" />
+            <img
+              className={styles.svgIcon6}
+              loading="lazy"
+              alt=""
+              src="/svg.svg"
+            />
           </div>
           <div className={styles.item7}>
             <div className={styles.whatTypeOf6}>
               What type of technical expertise does Proxify offer?
             </div>
-            <img className={styles.svgIcon7} alt="" src="/svg.svg" />
+            <img
+              className={styles.svgIcon7}
+              loading="lazy"
+              alt=""
+              src="/svg.svg"
+            />
           </div>
           <div className={styles.item8}>
             <div className={styles.whatTypeOf7}>
               What type of technical expertise does Proxify offer?
             </div>
-            <img className={styles.svgIcon8} alt="" src="/svg.svg" />
+            <img
+              className={styles.svgIcon8}
+              loading="lazy"
+              alt=""
+              src="/svg.svg"
+            />
           </div>
         </div>
         <div className={styles.itemParent}>
@@ -106,7 +146,12 @@ const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
               <div className={styles.isSolaceA1}>
                 Is Solace a Bank or an Insurance Company?
               </div>
-              <img className={styles.svgIcon9} alt="" src="/svg.svg" />
+              <img
+                className={styles.svgIcon9}
+                loading="lazy"
+                alt=""
+                src="/svg.svg"
+              />
             </div>
           </div>
           <div className={styles.item10}>
@@ -114,7 +159,12 @@ const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
               <div className={styles.whereIsGmonie}>
                 Where is Gmonie Technologies Ltd office located?
               </div>
-              <img className={styles.svgIcon10} alt="" src="/svg.svg" />
+              <img
+                className={styles.svgIcon10}
+                loading="lazy"
+                alt=""
+                src="/svg.svg"
+              />
             </div>
           </div>
           <div className={styles.item11}>
@@ -122,7 +172,12 @@ const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
               <div className={styles.whatTypeOf8}>
                 What type of technical expertise does Proxify offer?
               </div>
-              <img className={styles.svgIcon11} alt="" src="/svg.svg" />
+              <img
+                className={styles.svgIcon11}
+                loading="lazy"
+                alt=""
+                src="/svg.svg"
+              />
             </div>
           </div>
           <div className={styles.item12}>
@@ -130,7 +185,12 @@ const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
               <div className={styles.whatTypeOf9}>
                 What type of technical expertise does Proxify offer?
               </div>
-              <img className={styles.svgIcon12} alt="" src="/svg.svg" />
+              <img
+                className={styles.svgIcon12}
+                loading="lazy"
+                alt=""
+                src="/svg.svg"
+              />
             </div>
           </div>
           <div className={styles.item13}>
@@ -138,7 +198,12 @@ const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
               <div className={styles.whatTypeOf10}>
                 What type of technical expertise does Proxify offer?
               </div>
-              <img className={styles.svgIcon13} alt="" src="/svg.svg" />
+              <img
+                className={styles.svgIcon13}
+                loading="lazy"
+                alt=""
+                src="/svg.svg"
+              />
             </div>
           </div>
           <div className={styles.item14}>
@@ -146,7 +211,12 @@ const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
               <div className={styles.whatTypeOf11}>
                 What type of technical expertise does Proxify offer?
               </div>
-              <img className={styles.svgIcon14} alt="" src="/svg.svg" />
+              <img
+                className={styles.svgIcon14}
+                loading="lazy"
+                alt=""
+                src="/svg.svg"
+              />
             </div>
           </div>
           <div className={styles.item15}>
@@ -154,7 +224,12 @@ const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
               <div className={styles.whatTypeOf12}>
                 What type of technical expertise does Proxify offer?
               </div>
-              <img className={styles.svgIcon15} alt="" src="/svg.svg" />
+              <img
+                className={styles.svgIcon15}
+                loading="lazy"
+                alt=""
+                src="/svg.svg"
+              />
             </div>
           </div>
           <div className={styles.item16}>
@@ -162,7 +237,12 @@ const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
               <div className={styles.whatTypeOf13}>
                 What type of technical expertise does Proxify offer?
               </div>
-              <img className={styles.svgIcon16} alt="" src="/svg.svg" />
+              <img
+                className={styles.svgIcon16}
+                loading="lazy"
+                alt=""
+                src="/svg.svg"
+              />
             </div>
           </div>
           <div className={styles.item17}>
@@ -170,7 +250,12 @@ const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
               <div className={styles.whatTypeOf14}>
                 What type of technical expertise does Proxify offer?
               </div>
-              <img className={styles.svgIcon17} alt="" src="/svg.svg" />
+              <img
+                className={styles.svgIcon17}
+                loading="lazy"
+                alt=""
+                src="/svg.svg"
+              />
             </div>
           </div>
           <div className={styles.item18}>
@@ -178,7 +263,12 @@ const FrameComponent: NextPage<FrameComponentType> = ({ className = "" }) => {
               <div className={styles.whatTypeOf15}>
                 What type of technical expertise does Proxify offer?
               </div>
-              <img className={styles.svgIcon18} alt="" src="/svg.svg" />
+              <img
+                className={styles.svgIcon18}
+                loading="lazy"
+                alt=""
+                src="/svg.svg"
+              />
             </div>
           </div>
         </div>

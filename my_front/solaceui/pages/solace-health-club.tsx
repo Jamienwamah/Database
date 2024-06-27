@@ -3,7 +3,7 @@ import { useState } from "react";
 import FrameComponent2 from "../components/discover";
 import FrameComponent3 from "../components/cashback";
 import FrameComponent from "../components/started";
-import NewFooter from "../components/new-footer";
+import NewFooter from "../components/footer";
 import joinNewsletter from "../helpers/newsletter";
 import FarewellPageWithForm1 from "./farewell-page-with-form1";
 import styles from "./solace-health-club.module.css";

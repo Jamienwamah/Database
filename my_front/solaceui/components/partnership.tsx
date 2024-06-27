@@ -34,13 +34,11 @@ const FrameComponent2: NextPage<FrameComponent2Type> = ({ className = "" }) => {
         </div>
         <div className={styles.testimonialContentWrapper}>
           <div className={styles.maskGroupParent}>
-            <svg
+            <img
               className={styles.maskGroupIcon}
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-            >
-              <image href="/mask-group-3@2x.png" width="24" height="24" />
-            </svg>
+              alt=""
+              src="/mask-group-3@2x.png"
+            />
             <div className={styles.textParent}>
               <p className={styles.text2}>
                 Join forces with us to elevate your business and make a
@@ -50,7 +48,7 @@ const FrameComponent2: NextPage<FrameComponent2Type> = ({ className = "" }) => {
                 enjoy cashback on medical expenses, priority services and more
                 at our partner locations. Become a Solace Partner and provide
                 elderly Nigerians the exceptional care they deserve while
-                boosting your patronage. Together, lets give the elders of
+                boosting your patronage. Together, let's give the elders of
                 Nigeria the Solace they truly need.
               </p>
               <button className={styles.button} onClick={onButtonClick}>

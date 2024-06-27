@@ -266,14 +266,14 @@
 
 /* Custom Styles */
 .textContainer {
-  /* margin-bottom: 1rem; */
+   margin-bottom: 1rem; 
   /* Add space between label and input */
 }
 
 .text2 {
-  /* display: block; */
+   display: block; 
   /* Ensure label is on its own line */
-  /* margin-bottom: 0.5rem; */
+   margin-bottom: 0.5rem; 
   /* Space between label and input */
 }
 
@@ -286,4 +286,3 @@
   outline: none;
   border: none;
 }
-

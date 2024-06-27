@@ -3,7 +3,7 @@ import { useCallback } from "react";
 import { useRouter } from "next/router";
 import MainContent from "../components/main-content";
 import FrameComponent1 from "../components/testimonial";
-import NewFooter1 from "../components/new-footer";
+import NewFooter1 from "../components/footer";
 import styles from "./join-caregivers-page-with-for1.module.css";
 
 const JoinCaregiversPageWithFor1: NextPage = () => {

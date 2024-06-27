@@ -278,13 +278,17 @@
   color: var(--fozanova-black);
   font-family: var(--fozanova-h3);
 }
+/* Media queries for responsiveness */
+
+/* Large screens */
 @media screen and (max-width: 1050px) {
   .featuresContentWrapper {
     padding-left: var(--padding-22xl);
     padding-right: var(--padding-15xl);
-    box-sizing: border-box;
   }
 }
+
+/* Medium screens */
 @media screen and (max-width: 1000px) {
   .eachFeatureWrapper,
   .featuresContentWrapperInner {
@@ -292,8 +296,20 @@
   }
   .featuresContentWrapper {
     flex-wrap: wrap;
+    padding-left: var(--padding-15xl);
+    padding-right: var(--padding-10xl);
   }
 }
+
+/* Small screens */
+@media screen and (max-width: 725px) {
+  .featuresContentWrapper {
+    padding-left: var(--padding-10xl);
+    padding-right: var(--padding-5xl);
+  }
+}
+
+/* Extra small screens */
 @media screen and (max-width: 450px) {
   .text {
     line-height: 27px;
@@ -301,7 +317,7 @@
   .text,
   .text2,
   .text4 {
-    font-size: var(--font-size-lgi);
+    font-size: var(--font-size-lgi); 
   }
   .text4 {
     line-height: 27px;
@@ -309,6 +325,5 @@
   .featuresContentWrapper {
     padding-top: var(--padding-10xl);
     padding-bottom: var(--padding-10xl);
-    box-sizing: border-box;
   }
 }

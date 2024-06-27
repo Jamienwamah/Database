@@ -1,7 +1,7 @@
-import type { NextPage } from "next";
-import styles from "./frame-component.module.css";
-import MarketButton from "./market-button";
-import MarketButton1 from "./market-button1";
+import type { NextPage } from 'next';
+import styles from './frame-component.module.css';
+import MarketButton from './market-button';
+import MarketButton1 from './market-button1';
 
 export type FrameComponentType = {
   className?: string;
@@ -11,23 +11,22 @@ export type FrameComponentType = {
 };
 
 const FrameComponent: NextPage<FrameComponentType> = ({
-  className = "",
+  className = '',
   email,
   setEmail,
   handleSubmit,
 }) => {
   return (
-    <section className={[styles.homepageInner, className].join(" ")}>
+    <section className={[styles.homepageInner, className].join(' ')}>
       <div className={styles.frameParent}>
         <div className={styles.ctaSection}>
           <div className={styles.form}>
-            <svg
-              className={styles.iconFrame} 
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-            >
-              <path d="M12 2v20M4 10l16-8M4 14l16 8" />
-            </svg>
+            <img
+              className={styles.iconFrame}
+              loading="lazy"
+              alt=""
+              src="/icon-frame.svg"
+            />
           </div>
           <div className={styles.content}>
             <h1 className={styles.text}>Lets take stress off you!</h1>
